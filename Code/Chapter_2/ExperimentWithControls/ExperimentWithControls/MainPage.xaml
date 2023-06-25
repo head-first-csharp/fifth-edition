@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExperimentWithControls.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image
+                Source="dotnet_bot.png"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Hello, World!"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Welcome to .NET Multi-platform App UI"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+            <Button
+                x:Name="CounterBtn"
+                Text="Click me"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Center" />
+
+            <Entry 
+                Placeholder="Enter some text" 
+                SemanticProperties.Hint="Lets you enter some text"
+                TextChanged="Entry_TextChanged" />
+
+            <Label Text="Here's what you typed:"
+                 SemanticProperties.Description="Here's what you typed:" />
+
+            <Label x:Name="EnteredText"
+                SemanticProperties.Description="The text that the user entered" 
+                BackgroundColor="Gold" Margin="0,0,0,20"/>
+
+            <Stepper Minimum="0" Maximum="10" Increment="1" 
+                SemanticProperties.Description="Lets you enter a whole number"
+                ValueChanged="Stepper_ValueChanged" />
+
+            <Label 
+                Text="Here's the stepper value:" 
+                SemanticProperties.Description="Here's the stepper value" />
+
+            <Label x:Name="StepperValue"
+                SemanticProperties.Description="The number the user chose with the Stepper" 
+                BackgroundColor="LightBlue" Margin="0,0,0,20"/>
+
+            <Slider Minimum="0" Maximum="1" ValueChanged="Slider_ValueChanged" />
+
+            <Label 
+                Text="Here's the slider value:" 
+                SemanticProperties.Description="Here's the stepper value" />
+
+            <Label x:Name="SliderValue"
+                SemanticProperties.Description="The number the user chose with the Slider" 
+                BackgroundColor="LightBlue" Margin="0,0,0,20"/>
+
+            <HorizontalStackLayout Spacing="20">
+
+                <Picker x:Name="BirdPicker" Title="Pick a bird" />
+
+                <VerticalStackLayout>
+
+                    <Label Text="Some birds" SemanticProperties.Description="Some birds"/>
+
+                    <Label x:Name="Birds" 
+                    Padding="10" MinimumWidthRequest="150"
+                    TextColor="White" BackgroundColor="DarkBlue" 
+                    SemanticProperties.Description="Shows the added birds" />
+
+                </VerticalStackLayout>
+
+            </HorizontalStackLayout>
+
+            <Button x:Name="AddBird" Clicked="AddBird_Clicked" Text="Add a bird" 
+                Margin="0,0,0,20" SemanticProperties.Hint="Adds a bird"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
