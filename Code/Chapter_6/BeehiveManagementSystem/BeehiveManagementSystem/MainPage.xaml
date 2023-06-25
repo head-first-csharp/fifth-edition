@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BeehiveManagementSystem.MainPage">
+
+    <ScrollView>
+        <Grid Margin="20" ColumnSpacing="20" MinimumHeightRequest="400">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Job Assignments" FontSize="Large" />
+
+            <Border Grid.Row="1" Padding="10" Margin="0,0,0,20" >
+                <VerticalStackLayout>
+
+                    <Picker x:Name="JobPicker" Title="Bee Jobs"
+                 FontSize="Medium" Margin="0,0,0,20"
+                SemanticProperties.Hint="Lets the user pick a job to assign" />
+
+                    <Button x:Name="AssignJobButton" Text="Assign this job to a bee" 
+                FontSize="Medium" Clicked="AssignJobButton_Clicked" 
+                SemanticProperties.Hint="Assigns the job to a worker bee" />
+
+                </VerticalStackLayout>
+            </Border>
+
+            <Button x:Name="WorkShiftButton" Grid.Row="2" Text="Work the next shift" 
+            FontSize="Large" Clicked="WorkShiftButton_Clicked"
+            SemanticProperties.Hint="Makes the bees work the next shift" />
+
+            <Button x:Name="OutOfHoneyButton" Grid.Row="2" Text="The hive is out of honey" 
+            BackgroundColor="Red" FontSize="Large" IsVisible="False" 
+            Clicked="OutOfHoneyButton_Clicked"
+            SemanticProperties.Hint="Restarts the Beehive Management System" />
+
+            <Label Text="Queen's Report" Grid.Column="1" FontSize="Large"  />
+
+            <Label x:Name="StatusReport" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" 
+           VerticalOptions="FillAndExpand" FontSize="Small" 
+           BackgroundColor="Black" TextColor="Yellow" Padding="10" />
+        </Grid>
+    </ScrollView>
+    
+</ContentPage>
