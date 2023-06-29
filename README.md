@@ -8,6 +8,13 @@ This GitHub project contains source code, downloadable PDFs, graphics, and addit
 
 We are currently revising the book, which is planned for publication near the end of 2023. We're really excited about it! We'll post a preview of the first four chapters later in the summer. If you're a 4th edition reader, watch this space—we'll post all of the new material in the 5th edition as free PDFs so you can stay up to date without having to buy a new copy of the book.
 
+## MAUI Project Preview
+
+One of the most exciting additions to Head First C# is the inclusion of .NET MAUI, Microsoft's new cross-platform framework for creating native mobile and desktop apps with C# and XAML. You can find early release versions of the projects in the [MAUI_Projects folder](MAUI_Projects/), and code for the projects in the [Code folder](Code/).
+
+<img width="610" alt="image" src="https://github.com/head-first-csharp/fifth-edition/assets/7516297/bde9a037-8145-4e0e-b0ef-814dc4ec1c68">
+
+
 ## License and Copyright
 
 All of the source code and graphics used by the source code is licensed under the [MIT License](https://github.com/head-first-csharp/fourth-edition/blob/master/LICENSE).
