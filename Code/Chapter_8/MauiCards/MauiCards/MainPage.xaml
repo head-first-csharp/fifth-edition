@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MauiCards"
+             x:Class="MauiCards.MainPage">
+
+    <ContentPage.Resources>
+        <local:Deck x:Key="MyCards"/>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Border>
+                <ListView x:Name="MyListView" HeightRequest="125" 
+                          ItemsSource="{StaticResource MyCards}"/>
+            </Border>
+
+            <HorizontalStackLayout>
+                <Label BindingContext="{StaticResource MyCards}" Text="{Binding Count}"/>
+                <Label Text=" cards in the deck"/>
+            </HorizontalStackLayout>
+
+            <Button Text="Add an item" Clicked="Button_Clicked" />
+
+            <Button Text="Shuffle the deck" Clicked="Shuffle_Clicked"/>
+
+            <Button Text="Sort the deck" Clicked="Sort_Clicked"/>
+
+            <Button Text="Reset the deck" Clicked="Reset_Clicked"/>
+
+            <Button Text="Clear the deck" Clicked="Clear_Clicked"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

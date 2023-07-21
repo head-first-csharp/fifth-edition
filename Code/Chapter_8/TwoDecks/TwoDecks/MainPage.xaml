@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mauiCards="clr-namespace:MauiCards"
+             x:Class="TwoDecks.MainPage">
+
+    <ContentPage.Resources>
+        <mauiCards:Deck x:Key="LeftDeck"/>
+        <mauiCards:Deck x:Key="RightDeck"/>
+    </ContentPage.Resources>
+
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <ListView x:Name="LeftListView" ItemsSource="{StaticResource LeftDeck}"
+                  Grid.ColumnSpan="2" Margin="5" />
+
+        <ListView x:Name="RightListView" ItemsSource="{StaticResource RightDeck}"
+                  Grid.Column="2" Grid.ColumnSpan="2" Margin="5"/>
+
+        <HorizontalStackLayout Grid.Row="1"
+                               VerticalOptions="Center" HorizontalOptions="Center">
+            <Label BindingContext="{StaticResource LeftDeck}" Text="{Binding Count}"/>
+            <Label Text=" cards in the deck"/>
+        </HorizontalStackLayout>
+
+        <Button Text="Move Selected Card" Grid.Row="1" Grid.Column="1"
+                SemanticProperties.Hint="Moves the selected card from left to right"
+                Margin="5" Clicked="moveLeftDeck_Clicked" />
+
+        <Button Text="Shuffle" Grid.Row="2"
+                SemanticProperties.Hint="Shuffles the left deck"
+                Margin="5" Clicked="shuffleLeftDeck_Clicked" />
+
+        <Button Text="Sort" Grid.Row="2" Grid.Column="1"
+                SemanticProperties.Hint="Sorts the left deck"
+                Margin="5" Clicked="sortLeftDeck_Clicked" />
+
+        <Button Text="Reset" Grid.Row="3" 
+                SemanticProperties.Hint="Resets the left deck"
+                Margin="5" Clicked="resetLeftDeck_Clicked" />
+
+        <Button Text="Clear" Grid.Row="3" Grid.Column="1"
+                SemanticProperties.Hint="Clears the left deck"
+                Margin="5" Clicked="clearLeftDeck_Clicked" />
+
+        <HorizontalStackLayout Grid.Row="1" Grid.Column="2"
+                               VerticalOptions="Center" HorizontalOptions="Center">
+            <Label BindingContext="{StaticResource RightDeck}" Text="{Binding Count}"/>
+            <Label Text=" cards in the deck"/>
+        </HorizontalStackLayout>
+
+        <Button Text="Move Selected Card" Grid.Row="1" Grid.Column="3"
+                SemanticProperties.Hint="Moves the selected card from right to left"
+                Margin="5" Clicked="moveRightDeck_Clicked" />
+
+        <Button Text="Shuffle" Grid.Row="2" Grid.Column="2" 
+                SemanticProperties.Hint="Shuffles the right deck"
+                Margin="5" Clicked="shuffleRightDeck_Clicked" />
+
+        <Button Text="Sort" Grid.Row="2" Grid.Column="3" Margin="5"
+                SemanticProperties.Hint="Sorts the right deck"
+                Clicked="sortRightDeck_Clicked" />
+
+        <Button Text="Reset" Grid.Row="3" Grid.Column="2" Margin="5"
+                SemanticProperties.Hint="Resets the right deck"
+                Clicked="resetRightDeck_Clicked" />
+
+        <Button Text="Clear" Grid.Row="3" Grid.Column="3" Margin="5" 
+                SemanticProperties.Hint="Clears the right deck"
+                Clicked="clearRightDeck_Clicked" />
+
+    </Grid>
+
+</ContentPage>
