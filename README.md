@@ -14,6 +14,15 @@ One of the most exciting additions to Head First C# is the inclusion of .NET MAU
 
 <img width="610" alt="image" src="https://github.com/head-first-csharp/fifth-edition/assets/7516297/bde9a037-8145-4e0e-b0ef-814dc4ec1c68">
 
+## Unity Labs
+
+Welcome to your first Head First C# Unity Lab. Writing code is a skill, and like any other skill, getting better at it takes practice and experimentation. Unity will be a really valuable tool for that.
+
+Unity is a cross-platform game development tool that you can use to make professional-quality games, simulations, and more. It’s also a fun and satisfying way to get practice with the C# tools and ideas you’ll learn throughout this book. We designed these short, targeted labs to reinforce the concepts and techniques you just learned to help you hone your C# skills. These labs valuable practice, even if you aren’t planning to write games in C#.
+
+You can download early release PDFs of the Unity Labs from the [Unity Labs folder](Unity_Labs/).
+
+<img width="811" alt="image" src="https://github.com/head-first-csharp/fifth-edition/assets/7516297/006f9ca9-aed1-4332-a14a-f06c0497dfe6">
 
 ## License and Copyright
 
