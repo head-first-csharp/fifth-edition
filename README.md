@@ -22,7 +22,7 @@ Unity is a cross-platform game development tool that you can use to make profess
 
 You can download early release PDFs of the Unity Labs from the [Unity Labs folder](Unity_Labs/).
 
-<img width="827" alt="image" src="https://github.com/head-first-csharp/fifth-edition/assets/7516297/6f5fa1d7-b212-4373-82f2-a097383a2c5b">
+<img width="804" alt="image" src="https://github.com/head-first-csharp/fifth-edition/assets/7516297/6b73c41d-fe39-4aaf-aedb-19677627c530">
 
 ## License and Copyright
 
