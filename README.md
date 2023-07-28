@@ -19,7 +19,7 @@ Excited about the fifth edition? Want to get a sneak peak? We've made the first 
 
 Do you want to learn C#? Are you trying to figure out if our book is right for you? We think our book is one of the most effective ways to learn C#. But you don't have to take our word for it! We want you to have the best C# learning experience possible, so to make things easy for you we've provided the **first four chapters of our book for free**.
 
-Download a **free PDF** of the first 4 chapters: [`Head_First_CSharp_5e_chapters_1_to_4.pdf`](https://github.com/head-first-csharp/fifth-edition/main/Head_First_CSharp_5e_chapters_1_to_4.pdf)
+Download a **free PDF** of the first 4 chapters: [`Head_First_CSharp_5e_chapters_1_to_4.pdf`](https://raw.githubusercontent.com/head-first-csharp/fifth-edition/main/Head_First_CSharp_5e_chapters_1_to_4.pdf)
 
 That PDF includes the complete introduction, chapters 1 through 4 and the first two Unity Labs. Try out our book today and see what you think!
 
