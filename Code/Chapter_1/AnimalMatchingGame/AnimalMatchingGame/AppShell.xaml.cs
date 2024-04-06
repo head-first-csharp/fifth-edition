@@ -1,9 +1,10 @@
-﻿namespace AnimalMatchingGame;
-
-public partial class AppShell : Shell
+﻿namespace AnimalMatchingGame
 {
-	public AppShell()
-	{
-		InitializeComponent();
-	}
+    public partial class AppShell : Shell
+    {
+        public AppShell()
+        {
+            InitializeComponent();
+        }
+    }
 }

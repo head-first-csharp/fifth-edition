@@ -1,97 +1,96 @@
-﻿namespace AnimalMatchingGame;
-
-public partial class MainPage : ContentPage
+﻿namespace AnimalMatchingGame
 {
-	public MainPage()
-	{
-		InitializeComponent();
-
-        AnimalButtons.IsVisible = false;
-    }
-
-    private void PlayAgainButton_Clicked(object sender, EventArgs e)
+    public partial class MainPage : ContentPage
     {
-        AnimalButtons.IsVisible = true;
-        PlayAgainButton.IsVisible = false;
 
-        List<string> animalEmoji = new List<string>()
+        public MainPage()
         {
-            "🐙", "🐙",
-            "🐡", "🐡",
-            "🐘", "🐘",
-            "🐳", "🐳",
-            "🐪", "🐪",
-            "🦕", "🦕",
-            "🦘", "🦘",
-            "🦔", "🦔",
-        };
-
-        foreach (var button in AnimalButtons.Children.OfType<Button>())
-        {
-            int index = Random.Shared.Next(animalEmoji.Count);
-            string nextEmoji = animalEmoji[index];
-            button.Text = nextEmoji;
-            animalEmoji.RemoveAt(index);
+            InitializeComponent();
         }
 
-        Dispatcher.StartTimer(TimeSpan.FromSeconds(.1), TimerTick);
-    }
-
-    int tenthsOfSecondsElapsed = 0;
-
-    private bool TimerTick()
-    {
-        if (!this.IsLoaded) return false;
-
-        tenthsOfSecondsElapsed++;
-
-        TimeElapsed.Text = "Time elapsed: " +
-            (tenthsOfSecondsElapsed / 10F).ToString("0.0s");
-
-        if (PlayAgainButton.IsVisible)
+        private void PlayAgainButton_Clicked(object sender, EventArgs e)
         {
-            tenthsOfSecondsElapsed = 0;
-            return false;
-        }
+            AnimalButtons.IsVisible = true;
+            PlayAgainButton.IsVisible = false;
 
-        return true;
-    }
+            List<string> animalEmoji = [
+                "🐙", "🐙",
+                "🐡", "🐡",
+                "🐘", "🐘",
+                "🐳", "🐳",
+                "🐪", "🐪",
+                "🦕", "🦕",
+                "🦘", "🦘",
+                "🦔", "🦔",
+            ];
 
-    Button lastClicked;
-    bool findingMatch = false;
-    int matchesFound;
-
-    private void Button_Clicked(object sender, EventArgs e)
-    {
-        if (sender is Button buttonClicked)
-        {
-            if (!string.IsNullOrEmpty(buttonClicked.Text) && (findingMatch == false))
+            foreach (var button in AnimalButtons.Children.OfType<Button>())
             {
-                buttonClicked.BackgroundColor = Colors.Red;
-                lastClicked = buttonClicked;
-                findingMatch = true;
+                int index = Random.Shared.Next(animalEmoji.Count);
+                string nextEmoji = animalEmoji[index];
+                button.Text = nextEmoji;
+                animalEmoji.RemoveAt(index);
             }
-            else
+
+            Dispatcher.StartTimer(TimeSpan.FromSeconds(.1), TimerTick);
+        }
+
+        int tenthsOfSecondsElapsed = 0;
+
+        private bool TimerTick()
+        {
+            if (!this.IsLoaded) return false;
+
+            tenthsOfSecondsElapsed++;
+
+            TimeElapsed.Text = "Time elapsed: " +
+                (tenthsOfSecondsElapsed / 10F).ToString("0.0s");
+
+            if (PlayAgainButton.IsVisible)
             {
-                if ((buttonClicked != lastClicked) && (buttonClicked.Text == lastClicked.Text)
-                    && (buttonClicked.Text != ""))
+                tenthsOfSecondsElapsed = 0;
+                return false;
+            }
+
+            return true;
+        }
+
+        Button lastClicked;
+        bool findingMatch = false;
+        int matchesFound;
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            if (sender is Button buttonClicked)
+            {
+                if (!string.IsNullOrWhiteSpace(buttonClicked.Text) && (findingMatch == false))
                 {
-                    matchesFound++;
-                    lastClicked.Text = "";
-                    buttonClicked.Text = "";
+                    buttonClicked.BackgroundColor = Colors.Red;
+                    lastClicked = buttonClicked;
+                    findingMatch = true;
                 }
-                lastClicked.BackgroundColor = Colors.LightBlue;
-                buttonClicked.BackgroundColor = Colors.LightBlue;
-                findingMatch = false;
+                else
+                {
+                    if ((buttonClicked != lastClicked) && (buttonClicked.Text == lastClicked.Text)
+                        && (!String.IsNullOrWhiteSpace(buttonClicked.Text)))
+                    {
+                        matchesFound++;
+                        lastClicked.Text = " ";
+                        buttonClicked.Text = " ";
+                    }
+                    lastClicked.BackgroundColor = Colors.LightBlue;
+                    buttonClicked.BackgroundColor = Colors.LightBlue;
+                    findingMatch = false;
+                }
+            }
+
+            if (matchesFound == 8)
+            {
+                matchesFound = 0;
+                AnimalButtons.IsVisible = false;
+                PlayAgainButton.IsVisible = true;
             }
         }
-
-        if (matchesFound == 8)
-        {
-            matchesFound = 0;
-            AnimalButtons.IsVisible = false;
-            PlayAgainButton.IsVisible = true;
-        }
     }
-}
 
+}
