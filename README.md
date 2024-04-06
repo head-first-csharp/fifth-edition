@@ -8,22 +8,6 @@ This GitHub project contains source code, downloadable PDFs, graphics, and addit
 
 We are currently revising the book, which is planned for publication near the end of 2023. We're really excited about it! We'll post a preview of the first four chapters later in the summer. If you're a 4th edition reader, watch this space—we'll post all of the new material in the 5th edition as free PDFs so you can stay up to date without having to buy a new copy of the book.
 
-## Read the first four chapters today!
-
-Excited about the fifth edition? Want to get a sneak peak? We've made the first four chapters available for download today!
-
-<a target="_blank" href="https://github.com/head-first-csharp/fifth-edition/raw/master/Head_First_CSharp_5e_chapters_1_to_4.pdf">
-   <img align="right" width="100px" src="Images/PDF_download_ icon.png"/>
-</a>
-
-Do you want to learn C#? Are you trying to figure out if our book is right for you? We think our book is one of the most effective ways to learn C#. But you don't have to take our word for it! We want you to have the best C# learning experience possible, so to make things easy for you we've provided the **first four chapters of our book for free**.
-
-Download a **free PDF** of the first 4 chapters: [`Head_First_CSharp_5e_chapters_1_to_4.pdf`](https://github.com/head-first-csharp/fifth-edition/raw/master/Head_First_CSharp_5e_chapters_1_to_4.pdf)
-
-That PDF includes the complete introduction, chapters 1 through 4 and the first two Unity Labs. Try out our book today and see what you think!
-
-☮️♥️👾 Jenny and Andrew
-
 ## MAUI Project Preview
 
 One of the most exciting additions to Head First C# is the inclusion of .NET MAUI, Microsoft's new cross-platform framework for creating native mobile and desktop apps with C# and XAML. You can find early release versions of the projects in the [MAUI_Projects folder](MAUI_Projects/), and code for the projects in the [Code folder](Code/).
