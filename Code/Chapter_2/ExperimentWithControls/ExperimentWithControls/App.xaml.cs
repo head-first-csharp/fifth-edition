@@ -1,11 +1,12 @@
-﻿namespace ExperimentWithControls;
-
-public partial class App : Application
+﻿namespace ExperimentWithControls
 {
-	public App()
-	{
-		InitializeComponent();
+    public partial class App : Application
+    {
+        public App()
+        {
+            InitializeComponent();
 
-		MainPage = new AppShell();
-	}
+            MainPage = new AppShell();
+        }
+    }
 }

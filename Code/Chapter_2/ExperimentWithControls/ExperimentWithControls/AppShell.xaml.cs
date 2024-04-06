@@ -1,9 +1,10 @@
-﻿namespace ExperimentWithControls;
-
-public partial class AppShell : Shell
+﻿namespace ExperimentWithControls
 {
-	public AppShell()
-	{
-		InitializeComponent();
-	}
+    public partial class AppShell : Shell
+    {
+        public AppShell()
+        {
+            InitializeComponent();
+        }
+    }
 }
