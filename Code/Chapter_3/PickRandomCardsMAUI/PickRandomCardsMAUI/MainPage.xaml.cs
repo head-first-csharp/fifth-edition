@@ -1,30 +1,31 @@
 ﻿using PickRandomCards;
 
-namespace PickRandomCardsMAUI;
-
-public partial class MainPage : ContentPage
+namespace PickRandomCardsMAUI
 {
-	public MainPage()
-	{
-		InitializeComponent();
-	}
-
-    private void PickCardsButton_Clicked(object sender, EventArgs e)
+    public partial class MainPage : ContentPage
     {
-        if (int.TryParse(NumberOfCards.Text, out int numberOfCards))
+        public MainPage()
         {
-            string[] cards = CardPicker.PickSomeCards(numberOfCards);
-            PickedCards.Text = String.Empty;
-            foreach (string card in cards)
-            {
-                PickedCards.Text += card + Environment.NewLine;
-            }
-            PickedCards.Text += Environment.NewLine + "You picked " + numberOfCards + " cards.";
+            InitializeComponent();
         }
-        else
+
+        private void PickCardsButton_Clicked(object sender, EventArgs e)
         {
-            PickedCards.Text = "Please enter a valid number.";
+            if (int.TryParse(NumberOfCards.Text, out int numberOfCards))
+            {
+                string[] cards = CardPicker.PickSomeCards(numberOfCards);
+                PickedCards.Text = String.Empty;
+                foreach (string card in cards)
+                {
+                    PickedCards.Text += card + Environment.NewLine;
+                }
+                PickedCards.Text += Environment.NewLine + "You picked " + numberOfCards + " cards.";
+            }
+            else
+            {
+                PickedCards.Text = "Please enter a valid number.";
+            }
         }
     }
-}
 
+}

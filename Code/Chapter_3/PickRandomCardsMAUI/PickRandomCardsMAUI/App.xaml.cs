@@ -1,11 +1,12 @@
-﻿namespace PickRandomCardsMAUI;
-
-public partial class App : Application
+﻿namespace PickRandomCardsMAUI
 {
-	public App()
-	{
-		InitializeComponent();
+    public partial class App : Application
+    {
+        public App()
+        {
+            InitializeComponent();
 
-		MainPage = new AppShell();
-	}
+            MainPage = new AppShell();
+        }
+    }
 }
