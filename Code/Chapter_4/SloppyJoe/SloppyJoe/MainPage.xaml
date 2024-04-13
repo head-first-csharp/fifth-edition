@@ -5,8 +5,7 @@
 
     <ScrollView>
 
-        <Grid Margin="10" 
-              SemanticProperties.Description="Here are the items on the menu.">
+        <Grid Margin="10">
             <Grid.RowDefinitions>
                 <RowDefinition/>
                 <RowDefinition/>
@@ -52,4 +51,3 @@
     </ScrollView>
 
 </ContentPage>
-    

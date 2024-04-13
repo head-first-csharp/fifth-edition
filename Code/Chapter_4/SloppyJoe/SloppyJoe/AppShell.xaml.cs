@@ -1,9 +1,10 @@
-﻿namespace SloppyJoe;
-
-public partial class AppShell : Shell
+﻿namespace SloppyJoe
 {
-	public AppShell()
-	{
-		InitializeComponent();
-	}
+    public partial class AppShell : Shell
+    {
+        public AppShell()
+        {
+            InitializeComponent();
+        }
+    }
 }

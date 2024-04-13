@@ -1,10 +1,12 @@
-﻿namespace GridExample;
-
-public partial class MainPage : ContentPage
+﻿namespace GridExample
 {
-	public MainPage()
-	{
-		InitializeComponent();
-	}
-}
+    public partial class MainPage : ContentPage
+    {
+        public MainPage()
+        {
+            InitializeComponent();
+        }
 
+    }
+
+}

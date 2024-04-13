@@ -1,15 +1,16 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace SloppyJoe;
-
-public class Program
+namespace SloppyJoe
 {
-	// This is the main entry point of the application.
-	static void Main(string[] args)
-	{
-		// if you want to use a different Application Delegate class from "AppDelegate"
-		// you can specify it here.
-		UIApplication.Main(args, null, typeof(AppDelegate));
-	}
+    public class Program
+    {
+        // This is the main entry point of the application.
+        static void Main(string[] args)
+        {
+            // if you want to use a different Application Delegate class from "AppDelegate"
+            // you can specify it here.
+            UIApplication.Main(args, null, typeof(AppDelegate));
+        }
+    }
 }
