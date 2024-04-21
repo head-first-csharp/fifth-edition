@@ -25,7 +25,6 @@ public partial class MainPage : ContentPage
     {
         if (!this.IsLoaded || !WorkShiftButton.IsVisible)
             return false;
-
         WorkShiftButton_Clicked(this, new EventArgs());
         return true;
     }
@@ -46,6 +45,7 @@ public partial class MainPage : ContentPage
         }
 
         UpdateStatusAndEnableAssignButton();
+        SemanticScreenReader.Default.Announce(queen.StatusReport);
     }
 
     private void AssignJobButton_Clicked(object sender, EventArgs e)
