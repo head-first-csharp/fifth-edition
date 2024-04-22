@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClownInterface", "ClownInterface\ClownInterface.csproj", "{872A2AE3-EF21-4AB9-BDA9-6FA62472C171}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{872A2AE3-EF21-4AB9-BDA9-6FA62472C171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{872A2AE3-EF21-4AB9-BDA9-6FA62472C171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{872A2AE3-EF21-4AB9-BDA9-6FA62472C171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{872A2AE3-EF21-4AB9-BDA9-6FA62472C171}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E478457D-56E2-4B7A-9591-FB503657A9A8}
+	EndGlobalSection
+EndGlobal
