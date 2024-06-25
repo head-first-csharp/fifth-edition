@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeMagnets", "CodeMagnets\CodeMagnets.csproj", "{20359D73-01D9-4B94-8C68-D0AE01E23272}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20359D73-01D9-4B94-8C68-D0AE01E23272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20359D73-01D9-4B94-8C68-D0AE01E23272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20359D73-01D9-4B94-8C68-D0AE01E23272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20359D73-01D9-4B94-8C68-D0AE01E23272}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72B640BE-70CC-4BF4-816D-1ECB38866D19}
+	EndGlobalSection
+EndGlobal

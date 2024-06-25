@@ -1,9 +1,10 @@
-﻿namespace MauiCards;
-
-public partial class AppShell : Shell
+﻿namespace MauiCards
 {
-	public AppShell()
-	{
-		InitializeComponent();
-	}
+    public partial class AppShell : Shell
+    {
+        public AppShell()
+        {
+            InitializeComponent();
+        }
+    }
 }

@@ -1,31 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace MauiCards;
 
-namespace MauiCards
+class Card(Values value, Suits suit)
 {
-    class Card
+
+    public Values Value { get { return value; } }
+
+    public Suits Suit { get { return suit; } }
+
+    public string Name
     {
-        public Values Value { get; private set; }
-        public Suits Suit { get; private set; }
+        get { return $"{Value} of {Suit}"; }
+    }
 
-        public Card(Values value, Suits suit)
-        {
-            this.Suit = suit;
-            this.Value = value;
-        }
-        public string Name
-        {
-            get { return $"{Value} of {Suit}"; }
-        }
-
-
-        public override string ToString()
-        {
-            return Name;
-        }
-
+    public override string ToString()
+    {
+        return Name;
     }
 }

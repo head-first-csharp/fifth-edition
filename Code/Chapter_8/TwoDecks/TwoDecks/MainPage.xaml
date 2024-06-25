@@ -25,63 +25,61 @@
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
 
-        <ListView x:Name="LeftListView" ItemsSource="{StaticResource LeftDeck}"
-                  Grid.ColumnSpan="2" Margin="5" />
+        <CollectionView x:Name="LeftCards" ItemsSource="{StaticResource LeftDeck}"
+               Grid.ColumnSpan="2" Margin="5" SelectionMode="Single"
+               BackgroundColor="LightGray" />
 
-        <ListView x:Name="RightListView" ItemsSource="{StaticResource RightDeck}"
-                  Grid.Column="2" Grid.ColumnSpan="2" Margin="5"/>
+        <CollectionView x:Name="RightCards" ItemsSource="{StaticResource RightDeck}"
+               Grid.Column="2" Grid.ColumnSpan="2" Margin="5" SelectionMode="Single"
+               BackgroundColor="LightGray"/>
 
-        <HorizontalStackLayout Grid.Row="1"
-                               VerticalOptions="Center" HorizontalOptions="Center">
-            <Label BindingContext="{StaticResource LeftDeck}" Text="{Binding Count}"/>
-            <Label Text=" cards in the deck"/>
-        </HorizontalStackLayout>
+        <Label BindingContext="{StaticResource LeftDeck}" Grid.Row="1"
+               Text="{Binding Count, StringFormat='{0} cards in the deck'}"
+               FontSize="Small" HorizontalOptions="Center" VerticalOptions="Center" />
 
         <Button Text="Move Selected Card" Grid.Row="1" Grid.Column="1"
                 SemanticProperties.Hint="Moves the selected card from left to right"
-                Margin="5" Clicked="moveLeftDeck_Clicked" />
+                Margin="5" Clicked="MoveLeftDeck_Clicked" />
 
         <Button Text="Shuffle" Grid.Row="2"
                 SemanticProperties.Hint="Shuffles the left deck"
-                Margin="5" Clicked="shuffleLeftDeck_Clicked" />
+                Margin="5" Clicked="ShuffleLeftDeck_Clicked" />
 
         <Button Text="Sort" Grid.Row="2" Grid.Column="1"
                 SemanticProperties.Hint="Sorts the left deck"
-                Margin="5" Clicked="sortLeftDeck_Clicked" />
+                Margin="5" Clicked="SortLeftDeck_Clicked" />
 
         <Button Text="Reset" Grid.Row="3" 
                 SemanticProperties.Hint="Resets the left deck"
-                Margin="5" Clicked="resetLeftDeck_Clicked" />
+                Margin="5" Clicked="ResetLeftDeck_Clicked" />
 
         <Button Text="Clear" Grid.Row="3" Grid.Column="1"
                 SemanticProperties.Hint="Clears the left deck"
-                Margin="5" Clicked="clearLeftDeck_Clicked" />
+                Margin="5" Clicked="ClearLeftDeck_Clicked" />
 
-        <HorizontalStackLayout Grid.Row="1" Grid.Column="2"
-                               VerticalOptions="Center" HorizontalOptions="Center">
-            <Label BindingContext="{StaticResource RightDeck}" Text="{Binding Count}"/>
-            <Label Text=" cards in the deck"/>
-        </HorizontalStackLayout>
+        <Label BindingContext="{StaticResource RightDeck}" Grid.Row="1" Grid.Column="2"
+              FontSize="Small" HorizontalOptions="Center" VerticalOptions="Center"
+               Text="{Binding Count, StringFormat='{0} cards in the deck'}" />
 
         <Button Text="Move Selected Card" Grid.Row="1" Grid.Column="3"
                 SemanticProperties.Hint="Moves the selected card from right to left"
-                Margin="5" Clicked="moveRightDeck_Clicked" />
+                Margin="5" Clicked="MoveRightDeck_Clicked" />
 
         <Button Text="Shuffle" Grid.Row="2" Grid.Column="2" 
                 SemanticProperties.Hint="Shuffles the right deck"
-                Margin="5" Clicked="shuffleRightDeck_Clicked" />
+                Margin="5" Clicked="ShuffleRightDeck_Clicked" />
 
         <Button Text="Sort" Grid.Row="2" Grid.Column="3" Margin="5"
                 SemanticProperties.Hint="Sorts the right deck"
-                Clicked="sortRightDeck_Clicked" />
+                Clicked="SortRightDeck_Clicked" />
 
         <Button Text="Reset" Grid.Row="3" Grid.Column="2" Margin="5"
                 SemanticProperties.Hint="Resets the right deck"
-                Clicked="resetRightDeck_Clicked" />
+                Clicked="ResetRightDeck_Clicked" />
 
         <Button Text="Clear" Grid.Row="3" Grid.Column="3" Margin="5" 
                 SemanticProperties.Hint="Clears the right deck"
-                Clicked="clearRightDeck_Clicked" />
+                Clicked="ClearRightDeck_Clicked" />
 
     </Grid>
 

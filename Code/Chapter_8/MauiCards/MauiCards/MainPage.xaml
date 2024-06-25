@@ -10,19 +10,20 @@
 
     <ScrollView>
         <VerticalStackLayout
-            Spacing="25"
             Padding="30,0"
-            VerticalOptions="Center">
+            Spacing="25">
+
+            <Label BindingContext="{StaticResource MyCards}"
+                   Text="{Binding Count, StringFormat='There are {0} cards in the deck'}" />
+
+            <Label x:Name="SelectedCard" Text="No card selected"/>
 
             <Border>
-                <ListView x:Name="MyListView" HeightRequest="125" 
-                          ItemsSource="{StaticResource MyCards}"/>
+                <CollectionView x:Name="MyItems" HeightRequest="125" SelectionMode="Single"
+                                SelectionChanged="MyItems_SelectionChanged"
+                                ItemsUpdatingScrollMode="KeepLastItemInView"
+                                ItemsSource="{StaticResource MyCards}" />
             </Border>
-
-            <HorizontalStackLayout>
-                <Label BindingContext="{StaticResource MyCards}" Text="{Binding Count}"/>
-                <Label Text=" cards in the deck"/>
-            </HorizontalStackLayout>
 
             <Button Text="Add an item" Clicked="Button_Clicked" />
 

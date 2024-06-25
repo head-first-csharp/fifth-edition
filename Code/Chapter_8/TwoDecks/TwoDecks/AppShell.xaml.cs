@@ -1,9 +1,10 @@
-﻿namespace TwoDecks;
-
-public partial class AppShell : Shell
+﻿namespace TwoDecks
 {
-	public AppShell()
-	{
-		InitializeComponent();
-	}
+    public partial class AppShell : Shell
+    {
+        public AppShell()
+        {
+            InitializeComponent();
+        }
+    }
 }
