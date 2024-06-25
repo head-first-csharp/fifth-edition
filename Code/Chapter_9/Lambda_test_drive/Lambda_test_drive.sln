@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambda_test_drive", "Lambda_test_drive\Lambda_test_drive.csproj", "{6BFE495A-AE2C-4A3F-BC50-0DE0E6A6615F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BFE495A-AE2C-4A3F-BC50-0DE0E6A6615F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BFE495A-AE2C-4A3F-BC50-0DE0E6A6615F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BFE495A-AE2C-4A3F-BC50-0DE0E6A6615F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BFE495A-AE2C-4A3F-BC50-0DE0E6A6615F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2FCF21F9-C8B9-4CBA-B436-A3493F84C397}
+	EndGlobalSection
+EndGlobal

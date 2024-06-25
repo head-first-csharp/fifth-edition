@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Create_an_enumerable_sequence_by_hand", "Create_an_enumerable_sequence_by_hand\Create_an_enumerable_sequence_by_hand.csproj", "{2125B585-9319-4480-8C7F-BFAAC9388F74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExploreYieldReturn", "ExploreYieldReturn\ExploreYieldReturn.csproj", "{55A13937-2953-4964-B0D7-7F805E3623D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refactor_ManualSportSequence", "Refactor_ManualSportSequence\Refactor_ManualSportSequence.csproj", "{66A44AD0-B0D9-440A-BF0E-BC95736A4B91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2125B585-9319-4480-8C7F-BFAAC9388F74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2125B585-9319-4480-8C7F-BFAAC9388F74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2125B585-9319-4480-8C7F-BFAAC9388F74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2125B585-9319-4480-8C7F-BFAAC9388F74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55A13937-2953-4964-B0D7-7F805E3623D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55A13937-2953-4964-B0D7-7F805E3623D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55A13937-2953-4964-B0D7-7F805E3623D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55A13937-2953-4964-B0D7-7F805E3623D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66A44AD0-B0D9-440A-BF0E-BC95736A4B91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A44AD0-B0D9-440A-BF0E-BC95736A4B91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A44AD0-B0D9-440A-BF0E-BC95736A4B91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A44AD0-B0D9-440A-BF0E-BC95736A4B91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95006314-75E7-4C93-97F1-B2A356647D91}
+	EndGlobalSection
+EndGlobal
