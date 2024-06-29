@@ -1,4 +1,5 @@
-﻿namespace PickRandomCards;
+﻿
+namespace PickRandomCards;
 
 internal class CardPicker
 {

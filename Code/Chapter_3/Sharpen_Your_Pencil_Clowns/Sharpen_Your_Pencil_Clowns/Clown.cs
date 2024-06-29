@@ -1,6 +1,6 @@
 ﻿class Clown
 {
-    public string Name;
+    public string? Name;
     public int Height;
 
     public void WhoAreYou()

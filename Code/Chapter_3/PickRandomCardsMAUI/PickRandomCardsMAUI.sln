@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.9.34622.214
+VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PickRandomCardsMAUI", "PickRandomCardsMAUI\PickRandomCardsMAUI.csproj", "{E7F31E9A-9D44-4DFD-ABBE-06AB3A674FB2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PickRandomCardsMAUI", "PickRandomCardsMAUI\PickRandomCardsMAUI.csproj", "{6D1609C0-DF24-4925-A0CF-842A74648452}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,17 +11,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E7F31E9A-9D44-4DFD-ABBE-06AB3A674FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E7F31E9A-9D44-4DFD-ABBE-06AB3A674FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E7F31E9A-9D44-4DFD-ABBE-06AB3A674FB2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{E7F31E9A-9D44-4DFD-ABBE-06AB3A674FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E7F31E9A-9D44-4DFD-ABBE-06AB3A674FB2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E7F31E9A-9D44-4DFD-ABBE-06AB3A674FB2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6D1609C0-DF24-4925-A0CF-842A74648452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D1609C0-DF24-4925-A0CF-842A74648452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D1609C0-DF24-4925-A0CF-842A74648452}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6D1609C0-DF24-4925-A0CF-842A74648452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D1609C0-DF24-4925-A0CF-842A74648452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D1609C0-DF24-4925-A0CF-842A74648452}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {5B9CC256-EAD1-45B6-A554-E90ED1522BFF}
+		SolutionGuid = {D0FB5847-74F6-4B97-90B0-DB3B76387691}
 	EndGlobalSection
 EndGlobal
