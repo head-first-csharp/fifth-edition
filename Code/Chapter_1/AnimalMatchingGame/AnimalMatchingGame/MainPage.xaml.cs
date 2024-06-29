@@ -72,7 +72,7 @@
                 else
                 {
                     if ((buttonClicked != lastClicked) && (buttonClicked.Text == lastClicked.Text)
-                        && (!String.IsNullOrWhiteSpace(buttonClicked.Text)))
+                         && (!String.IsNullOrWhiteSpace(buttonClicked.Text)))
                     {
                         matchesFound++;
                         lastClicked.Text = " ";
@@ -91,6 +91,7 @@
                 PlayAgainButton.IsVisible = true;
             }
         }
+
     }
 
 }
