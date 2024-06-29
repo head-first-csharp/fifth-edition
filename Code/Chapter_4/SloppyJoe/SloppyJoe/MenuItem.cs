@@ -1,4 +1,6 @@
-﻿class MenuItem
+﻿namespace SloppyJoe;
+
+class MenuItem
 {
     public string[] Proteins = [
                 "Roast beef", "Salami", "Turkey",

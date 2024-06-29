@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.9.34622.214
+VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Random_Test_Drive", "Random_Test_Drive\Random_Test_Drive.csproj", "{418D18F7-FB24-426F-BD8F-1BCDE3103F11}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Random_Test_Drive", "Random_Test_Drive\Random_Test_Drive.csproj", "{02BAD07D-FB05-43EA-9438-815E8542CE78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{418D18F7-FB24-426F-BD8F-1BCDE3103F11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{418D18F7-FB24-426F-BD8F-1BCDE3103F11}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{418D18F7-FB24-426F-BD8F-1BCDE3103F11}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{418D18F7-FB24-426F-BD8F-1BCDE3103F11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02BAD07D-FB05-43EA-9438-815E8542CE78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02BAD07D-FB05-43EA-9438-815E8542CE78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02BAD07D-FB05-43EA-9438-815E8542CE78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02BAD07D-FB05-43EA-9438-815E8542CE78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {3E8F27CA-91A9-4F2C-8802-335B7B1A53D0}
+		SolutionGuid = {CBAA7A07-2FA8-40D7-82DE-64C87077A6B0}
 	EndGlobalSection
 EndGlobal
