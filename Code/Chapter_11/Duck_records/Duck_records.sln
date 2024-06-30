@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvilClone", "EvilClone\EvilClone.csproj", "{E016B09A-D378-4592-B0DA-56BD4144801C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Duck_records", "Duck_records\Duck_records.csproj", "{1A0647D2-55AD-4B0B-9EBB-E75A35BF9C88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E016B09A-D378-4592-B0DA-56BD4144801C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E016B09A-D378-4592-B0DA-56BD4144801C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E016B09A-D378-4592-B0DA-56BD4144801C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E016B09A-D378-4592-B0DA-56BD4144801C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A0647D2-55AD-4B0B-9EBB-E75A35BF9C88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A0647D2-55AD-4B0B-9EBB-E75A35BF9C88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A0647D2-55AD-4B0B-9EBB-E75A35BF9C88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A0647D2-55AD-4B0B-9EBB-E75A35BF9C88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C54B8D97-F529-42A6-A257-03DD017ED99C}
+		SolutionGuid = {E60B83F8-C44D-4C25-8D29-C9C942EBD781}
 	EndGlobalSection
 EndGlobal
