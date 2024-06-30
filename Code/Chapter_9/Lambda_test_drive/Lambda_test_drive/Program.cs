@@ -10,6 +10,7 @@ class Nest
 
     public static string GetChicks() => $"The nest has {Random.Shared.Next(1, 12)} chicks";
 
+
     public void WriteLines()
     {
         for (int i = 0; i < Count; i++)

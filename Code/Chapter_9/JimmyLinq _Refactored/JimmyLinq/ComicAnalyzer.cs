@@ -15,8 +15,8 @@ public static class ComicAnalyzer
     {
         var grouped =
             comics
-         .OrderBy(comic => prices[comic.Issue])
-         .GroupBy(comic => CalculatePriceRange(comic, prices));
+            .OrderBy(comic => prices[comic.Issue])
+            .GroupBy(comic => CalculatePriceRange(comic, prices));
 
         return grouped;
     }

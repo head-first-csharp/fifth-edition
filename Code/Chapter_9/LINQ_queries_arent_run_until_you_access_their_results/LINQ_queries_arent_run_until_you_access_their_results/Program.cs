@@ -7,27 +7,7 @@ var result =
     from o in listOfObjects
     select o.Number;
 
-var immediate = result.ToList();
-
 Console.WriteLine("Run the foreach");
-foreach (var number in result)
+var immediate = result.ToList();
+foreach (var number in immediate)
     Console.WriteLine($"Writing #{number}");
-
-
-class PrintWhenGetting
-{
-    private int number;
-    public PrintWhenGetting(int number)
-    {
-        this.number = number;
-    }
-    public int Number
-    {
-        get
-        {
-            Console.WriteLine($"Getting #{number}");
-            return number;
-        }
-    }
-}
-

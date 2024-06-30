@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambda_test_drive", "Lambda_test_drive\Lambda_test_drive.csproj", "{1559D4FF-343C-4016-B5B3-51CF5FE35D62}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sharpen_card_query", "Sharpen_card_query\Sharpen_card_query.csproj", "{AA5C562E-3B0C-4597-AEF0-4A8661729BAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1559D4FF-343C-4016-B5B3-51CF5FE35D62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1559D4FF-343C-4016-B5B3-51CF5FE35D62}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1559D4FF-343C-4016-B5B3-51CF5FE35D62}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1559D4FF-343C-4016-B5B3-51CF5FE35D62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA5C562E-3B0C-4597-AEF0-4A8661729BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA5C562E-3B0C-4597-AEF0-4A8661729BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA5C562E-3B0C-4597-AEF0-4A8661729BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA5C562E-3B0C-4597-AEF0-4A8661729BAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {12015233-BC28-4C63-A88B-AA4AE962DC5F}
+		SolutionGuid = {46F806ED-C547-4B62-8781-F05AEEE6F7CA}
 	EndGlobalSection
 EndGlobal

@@ -1,13 +1,5 @@
 ﻿using System.Collections;
 
-foreach (var sport in new BetterSportSequence())
-    Console.WriteLine(sport);
-
-var sequence = new BetterSportSequence();
-Console.WriteLine(sequence[3]);
-
-enum Sport { Football, Baseball, Basketball, Hockey, Boxing, Rugby, Fencing }
-
 class BetterSportSequence : IEnumerable<Sport>
 {
     public IEnumerator<Sport> GetEnumerator()
@@ -27,4 +19,5 @@ class BetterSportSequence : IEnumerable<Sport>
     {
         get => (Sport)index;
     }
+
 }

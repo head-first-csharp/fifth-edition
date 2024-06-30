@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refactor_a_clown_with_lambdas", "Refactor_a_clown_with_lambdas\Refactor_a_clown_with_lambdas.csproj", "{B147A1EE-FFB9-4DB6-8903-EBF3C19876B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refactor_a_clown_with_lambdas", "Refactor_a_clown_with_lambdas\Refactor_a_clown_with_lambdas.csproj", "{28DFA9AD-AE78-4045-8FC7-481A05458608}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B147A1EE-FFB9-4DB6-8903-EBF3C19876B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B147A1EE-FFB9-4DB6-8903-EBF3C19876B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B147A1EE-FFB9-4DB6-8903-EBF3C19876B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B147A1EE-FFB9-4DB6-8903-EBF3C19876B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28DFA9AD-AE78-4045-8FC7-481A05458608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28DFA9AD-AE78-4045-8FC7-481A05458608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28DFA9AD-AE78-4045-8FC7-481A05458608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28DFA9AD-AE78-4045-8FC7-481A05458608}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C378CB1F-78C5-43B2-8E2E-D55C6A336185}
+		SolutionGuid = {B15CCBD6-B032-4BD3-ADEC-F5FEA7820CAA}
 	EndGlobalSection
 EndGlobal

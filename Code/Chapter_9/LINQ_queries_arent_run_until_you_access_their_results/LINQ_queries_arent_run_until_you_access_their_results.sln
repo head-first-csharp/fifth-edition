@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ_queries_arent_run_until_you_access_their_results", "LINQ_queries_arent_run_until_you_access_their_results\LINQ_queries_arent_run_until_you_access_their_results.csproj", "{024FCD50-11CF-445D-8DB1-D0847355F245}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ_queries_arent_run_until_you_access_their_results", "LINQ_queries_arent_run_until_you_access_their_results\LINQ_queries_arent_run_until_you_access_their_results.csproj", "{A11CB7EC-5915-4EB4-ACF0-328C39A17799}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{024FCD50-11CF-445D-8DB1-D0847355F245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{024FCD50-11CF-445D-8DB1-D0847355F245}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{024FCD50-11CF-445D-8DB1-D0847355F245}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{024FCD50-11CF-445D-8DB1-D0847355F245}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A11CB7EC-5915-4EB4-ACF0-328C39A17799}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A11CB7EC-5915-4EB4-ACF0-328C39A17799}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A11CB7EC-5915-4EB4-ACF0-328C39A17799}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A11CB7EC-5915-4EB4-ACF0-328C39A17799}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {925AB9AB-CFEA-45A3-9D8E-19425400C2A0}
+		SolutionGuid = {F6F7A329-E876-48A2-9541-3C9FFC92A99A}
 	EndGlobalSection
 EndGlobal

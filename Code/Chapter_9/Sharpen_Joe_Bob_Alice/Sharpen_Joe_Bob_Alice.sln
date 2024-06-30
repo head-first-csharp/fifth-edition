@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sharpen_Joe_Bob_Alice", "Sharpen_Joe_Bob_Alice\Sharpen_Joe_Bob_Alice.csproj", "{A9C7370C-FD6A-4214-9C55-73B8956B3F51}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sharpen_Joe_Bob_Alice", "Sharpen_Joe_Bob_Alice\Sharpen_Joe_Bob_Alice.csproj", "{2F4144D8-48CD-44AC-BDB7-A0125B8DFA4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A9C7370C-FD6A-4214-9C55-73B8956B3F51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A9C7370C-FD6A-4214-9C55-73B8956B3F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A9C7370C-FD6A-4214-9C55-73B8956B3F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A9C7370C-FD6A-4214-9C55-73B8956B3F51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F4144D8-48CD-44AC-BDB7-A0125B8DFA4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F4144D8-48CD-44AC-BDB7-A0125B8DFA4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F4144D8-48CD-44AC-BDB7-A0125B8DFA4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F4144D8-48CD-44AC-BDB7-A0125B8DFA4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A1113DFB-1469-4B42-AEFE-A7846D956709}
+		SolutionGuid = {160CE884-E9E1-4D66-9597-0A9DAEB83ECC}
 	EndGlobalSection
 EndGlobal

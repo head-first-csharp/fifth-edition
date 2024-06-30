@@ -5,12 +5,18 @@ while (!done)
 {
     Console.WriteLine(
         "\nPress G to group comics by price, R to get reviews, any other key to quit\n");
-    done = Console.ReadKey(true).KeyChar.ToString().ToUpper() switch
+    switch (Console.ReadKey(true).KeyChar.ToString().ToUpper())
     {
-        "G" => GroupComicsByPrice(),
-        "R" => GetReviews(),
-        _ => true,
-    };
+        case "G":
+            done = GroupComicsByPrice();
+            break;
+        case "R":
+            done = GetReviews();
+            break;
+        default:
+            done = true;
+            break;
+    }
 }
 
 bool GroupComicsByPrice()

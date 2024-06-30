@@ -1,4 +1,4 @@
-﻿int[] badgers = [ 36, 5, 91, 3, 41, 69, 8 ];
+﻿int[] badgers = [36, 5, 91, 3, 41, 69, 8];
 
 var skunks =
     from pigeon in badgers
@@ -7,11 +7,12 @@ var skunks =
     select pigeon + 5;
 
 var bears =
-    skunks.Take(3);
+    skunks
+        .Take(3);
 
 var weasels =
     from sparrow in bears
     select sparrow - 1;
 
 Console.WriteLine("Get your kicks on route {0}",
-    weasels.Sum());
+    weasels.Sum()); 

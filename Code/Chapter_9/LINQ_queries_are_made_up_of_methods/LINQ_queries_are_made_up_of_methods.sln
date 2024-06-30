@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ_Magnets", "LINQ_Magnets\LINQ_Magnets.csproj", "{D2FEE75B-AD49-42F9-92CE-C205AD6F6CA8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ_queries_are_made_up_of_methods", "LINQ_queries_are_made_up_of_methods\LINQ_queries_are_made_up_of_methods.csproj", "{75C222D6-B56F-41F8-9323-108799957882}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D2FEE75B-AD49-42F9-92CE-C205AD6F6CA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D2FEE75B-AD49-42F9-92CE-C205AD6F6CA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D2FEE75B-AD49-42F9-92CE-C205AD6F6CA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D2FEE75B-AD49-42F9-92CE-C205AD6F6CA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75C222D6-B56F-41F8-9323-108799957882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75C222D6-B56F-41F8-9323-108799957882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75C222D6-B56F-41F8-9323-108799957882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75C222D6-B56F-41F8-9323-108799957882}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {CB06AF8F-2519-454D-9298-50D74231E1E7}
+		SolutionGuid = {5B6E1E18-66C2-45C7-B195-58BD9E291773}
 	EndGlobalSection
 EndGlobal
