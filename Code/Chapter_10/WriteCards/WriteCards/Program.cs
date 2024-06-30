@@ -1,4 +1,4 @@
-﻿using WriteCards;
+﻿using CardLinq;
 
 var filename = "deckofcards.txt";
 Deck deck = new Deck();
@@ -11,4 +11,3 @@ deck.WriteCards(filename);
 Deck cardsToRead = new Deck(filename);
 foreach (var card in cardsToRead)
     Console.WriteLine(card.Name);
-

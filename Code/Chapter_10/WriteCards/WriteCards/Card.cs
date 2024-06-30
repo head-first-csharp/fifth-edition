@@ -1,7 +1,11 @@
-﻿namespace WriteCards;
+﻿namespace CardLinq;
 
-class Card(Values value, Suits suit)
+class Card(Values value, Suits suit) : IComparable<Card>
 {
+    public int CompareTo(Card? other)
+    {
+        return new CardComparerByValue().Compare(this, other);
+    }
 
     public Values Value { get { return value; } }
 
@@ -16,4 +20,5 @@ class Card(Values value, Suits suit)
     {
         return Name;
     }
+
 }

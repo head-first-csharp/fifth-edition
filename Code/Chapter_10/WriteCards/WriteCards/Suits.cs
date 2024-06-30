@@ -1,4 +1,4 @@
-﻿namespace WriteCards;
+﻿namespace CardLinq;
 
 enum Suits
 {

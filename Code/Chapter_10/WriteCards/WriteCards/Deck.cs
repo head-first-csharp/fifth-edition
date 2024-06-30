@@ -1,4 +1,4 @@
-﻿namespace WriteCards;
+﻿namespace CardLinq;
 
 using System.Collections.ObjectModel;
 
@@ -47,7 +47,7 @@ class Deck : ObservableCollection<Card>
         }
     }
 
-    public void WriteCards(string filename)
+    internal void WriteCards(string filename)
     {
         using (var writer = new StreamWriter(filename))
         {
@@ -57,7 +57,6 @@ class Deck : ObservableCollection<Card>
             }
         }
     }
-
     public void Reset()
     {
         Clear();
@@ -66,7 +65,7 @@ class Deck : ObservableCollection<Card>
                 Add(new Card((Values)value, (Suits)suit));
     }
 
-    public void Shuffle()
+    public Deck Shuffle()
     {
         List<Card> copy = new List<Card>(this);
         Clear();
@@ -77,6 +76,7 @@ class Deck : ObservableCollection<Card>
             copy.RemoveAt(index);
             Add(card);
         }
+        return this;
     }
 
     public void Sort()
@@ -89,4 +89,5 @@ class Deck : ObservableCollection<Card>
             Add(card);
         }
     }
+
 }
