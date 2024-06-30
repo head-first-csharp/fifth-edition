@@ -7,11 +7,9 @@ class MyException : Exception { }
 
 class ExTestDrive
 {
-    public static void Zero(string test)
-    {
+    public static void Zero(string test) {
 
-        try
-        {
+        try {
 
             Console.Write("t");
 
@@ -41,8 +39,7 @@ class ExTestDrive
     {
         Console.Write("h");
 
-        if (t == "yes")
-        {
+        if (t == "yes") {
 
             throw new MyException();
 

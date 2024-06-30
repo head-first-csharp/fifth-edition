@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionMagnets", "ExceptionMagnets\ExceptionMagnets.csproj", "{5F68BF74-A92B-46AE-9AE6-023B4E8335CF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionMagnets", "ExceptionMagnets\ExceptionMagnets.csproj", "{E4658DCF-DF96-47C9-81FD-45FAE83991FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5F68BF74-A92B-46AE-9AE6-023B4E8335CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5F68BF74-A92B-46AE-9AE6-023B4E8335CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5F68BF74-A92B-46AE-9AE6-023B4E8335CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5F68BF74-A92B-46AE-9AE6-023B4E8335CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4658DCF-DF96-47C9-81FD-45FAE83991FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4658DCF-DF96-47C9-81FD-45FAE83991FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4658DCF-DF96-47C9-81FD-45FAE83991FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4658DCF-DF96-47C9-81FD-45FAE83991FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E542F6DD-57DD-40C6-95A0-61A7E28C9821}
+		SolutionGuid = {5136EB9F-3728-4B41-990C-3A80F521BB38}
 	EndGlobalSection
 EndGlobal

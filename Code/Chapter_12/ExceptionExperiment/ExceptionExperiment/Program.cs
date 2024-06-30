@@ -31,5 +31,3 @@ finally
 {
     Console.WriteLine(firstLine);
 }
-
-Log.CloseAndFlush();

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoolPuzzle", "PoolPuzzle\PoolPuzzle.csproj", "{0E6AEFDA-1F1B-405F-8EEF-6CA22CFB8B8E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoolPuzzle", "PoolPuzzle\PoolPuzzle.csproj", "{98672690-F33D-45C2-9564-DAD7A4404705}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0E6AEFDA-1F1B-405F-8EEF-6CA22CFB8B8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0E6AEFDA-1F1B-405F-8EEF-6CA22CFB8B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0E6AEFDA-1F1B-405F-8EEF-6CA22CFB8B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0E6AEFDA-1F1B-405F-8EEF-6CA22CFB8B8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98672690-F33D-45C2-9564-DAD7A4404705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98672690-F33D-45C2-9564-DAD7A4404705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98672690-F33D-45C2-9564-DAD7A4404705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98672690-F33D-45C2-9564-DAD7A4404705}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {5DF01D66-AA78-4DD7-BB21-D81EE8258B76}
+		SolutionGuid = {811D37BD-86E6-4159-B7D6-276B81B7B579}
 	EndGlobalSection
 EndGlobal
