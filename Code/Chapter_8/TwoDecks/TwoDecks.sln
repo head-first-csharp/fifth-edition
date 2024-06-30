@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoDecks", "TwoDecks\TwoDecks.csproj", "{528881B8-B353-46CA-A652-860DD0E7FAFB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoDecks", "TwoDecks\TwoDecks.csproj", "{563C02CF-15D7-4410-8392-F4A0485D5348}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,17 +11,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{528881B8-B353-46CA-A652-860DD0E7FAFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{528881B8-B353-46CA-A652-860DD0E7FAFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{528881B8-B353-46CA-A652-860DD0E7FAFB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{528881B8-B353-46CA-A652-860DD0E7FAFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{528881B8-B353-46CA-A652-860DD0E7FAFB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{528881B8-B353-46CA-A652-860DD0E7FAFB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{563C02CF-15D7-4410-8392-F4A0485D5348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{563C02CF-15D7-4410-8392-F4A0485D5348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{563C02CF-15D7-4410-8392-F4A0485D5348}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{563C02CF-15D7-4410-8392-F4A0485D5348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{563C02CF-15D7-4410-8392-F4A0485D5348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{563C02CF-15D7-4410-8392-F4A0485D5348}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {AC5DE7BC-D736-4C09-8C69-D7A10D6D2A2F}
+		SolutionGuid = {71D15E8D-E794-4092-A260-94BE36CC18F3}
 	EndGlobalSection
 EndGlobal

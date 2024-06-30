@@ -1,6 +1,4 @@
-﻿namespace Lumberjacks;
-
-enum Flapjack
+﻿enum Flapjack
 {
     Crispy,
     Soggy,

@@ -1,5 +1,4 @@
-﻿namespace ShoeClosetApp;
-
+﻿
 class ShoeCloset
 {
     private readonly List<Shoe> shoes = new List<Shoe>();

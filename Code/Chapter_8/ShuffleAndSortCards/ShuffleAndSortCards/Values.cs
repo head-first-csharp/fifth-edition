@@ -1,6 +1,4 @@
-﻿namespace ShuffleAndSortCards;
-
-enum Values
+﻿enum Values
 {
     Ace = 1,
     Two = 2,

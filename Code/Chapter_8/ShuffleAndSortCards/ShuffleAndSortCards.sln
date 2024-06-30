@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShuffleAndSortCards", "ShuffleAndSortCards\ShuffleAndSortCards.csproj", "{A294F393-036C-4246-A0E5-6F09F1EEEF6C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShuffleAndSortCards", "ShuffleAndSortCards\ShuffleAndSortCards.csproj", "{4EBCAEB2-8A77-4FA0-A17A-DF99E6506964}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A294F393-036C-4246-A0E5-6F09F1EEEF6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A294F393-036C-4246-A0E5-6F09F1EEEF6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A294F393-036C-4246-A0E5-6F09F1EEEF6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A294F393-036C-4246-A0E5-6F09F1EEEF6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EBCAEB2-8A77-4FA0-A17A-DF99E6506964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EBCAEB2-8A77-4FA0-A17A-DF99E6506964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EBCAEB2-8A77-4FA0-A17A-DF99E6506964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EBCAEB2-8A77-4FA0-A17A-DF99E6506964}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {042A9BA7-4201-457E-BF77-C1A306649D92}
+		SolutionGuid = {ED524C54-9641-4627-8C95-CAE8F7B60852}
 	EndGlobalSection
 EndGlobal

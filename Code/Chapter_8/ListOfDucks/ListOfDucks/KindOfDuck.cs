@@ -1,6 +1,4 @@
-﻿namespace ListOfDucks;
-
-enum KindOfDuck
+﻿enum KindOfDuck
 {
     Mallard,
     Muscovy,

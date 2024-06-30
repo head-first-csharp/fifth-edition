@@ -38,8 +38,3 @@ class Dog(Breeds breed, string name) : IComparable<Dog>
         return $"A {Breed} named {Name}";
     }
 }
-
-
-
-
-

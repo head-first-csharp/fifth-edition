@@ -1,6 +1,4 @@
-﻿namespace ListOfDucks;
-
-class DuckComparerByKind : IComparer<Duck>
+﻿class DuckComparerByKind : IComparer<Duck>
 {
     public int Compare(Duck? x, Duck? y)
     {

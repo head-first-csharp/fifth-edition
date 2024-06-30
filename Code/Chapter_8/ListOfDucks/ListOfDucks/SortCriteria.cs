@@ -1,6 +1,4 @@
-﻿namespace ListOfDucks;
-
-enum SortCriteria
+﻿enum SortCriteria
 {
     SizeThenKind,
     KindThenSize,

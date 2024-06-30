@@ -1,6 +1,4 @@
-﻿using Lumberjacks;
-
-Queue<Lumberjack> lumberjacks = new Queue<Lumberjack>();
+﻿Queue<Lumberjack> lumberjacks = new Queue<Lumberjack>();
 
 string? name;
 Console.Write("First lumberjack's name: ");

@@ -1,6 +1,6 @@
 ﻿namespace MauiCards;
 
-internal class CardComparerByValue : IComparer<Card>
+class CardComparerByValue : IComparer<Card>
 {
     public int Compare(Card? x, Card? y)
     {

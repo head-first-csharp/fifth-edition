@@ -1,6 +1,4 @@
-﻿namespace ListOfDucks;
-
-class DuckComparer : IComparer<Duck>
+﻿class DuckComparer : IComparer<Duck>
 {
     public SortCriteria SortBy = SortCriteria.SizeThenKind;
 

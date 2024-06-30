@@ -1,5 +1,4 @@
-﻿namespace ShoeClosetApp;
-
+﻿
 enum Style
 {
     Sneaker,

@@ -1,6 +1,4 @@
-﻿namespace ShuffleAndSortCards;
-
-enum Suits
+﻿enum Suits
 {
     Diamonds,
     Clubs,

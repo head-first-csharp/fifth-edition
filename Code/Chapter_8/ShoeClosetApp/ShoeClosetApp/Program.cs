@@ -1,6 +1,4 @@
-﻿using ShoeClosetApp;
-
-ShoeCloset shoeCloset = new ShoeCloset();
+﻿ShoeCloset shoeCloset = new ShoeCloset();
 
 while (true)
 {

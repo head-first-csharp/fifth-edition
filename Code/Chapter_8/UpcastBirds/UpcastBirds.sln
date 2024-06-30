@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpcastBirds", "UpcastBirds\UpcastBirds.csproj", "{065C2236-5436-422D-B620-E8F545762DCD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpcastBirds", "UpcastBirds\UpcastBirds.csproj", "{3F12446C-151E-4530-BD2E-812F30C04DBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{065C2236-5436-422D-B620-E8F545762DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{065C2236-5436-422D-B620-E8F545762DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{065C2236-5436-422D-B620-E8F545762DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{065C2236-5436-422D-B620-E8F545762DCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F12446C-151E-4530-BD2E-812F30C04DBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F12446C-151E-4530-BD2E-812F30C04DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F12446C-151E-4530-BD2E-812F30C04DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F12446C-151E-4530-BD2E-812F30C04DBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4F9EBBB1-C087-437A-86FF-DAA157572906}
+		SolutionGuid = {2B75354D-0825-46F7-967A-A4F21E5EA731}
 	EndGlobalSection
 EndGlobal

@@ -14,13 +14,13 @@
             Spacing="25">
 
             <Label BindingContext="{StaticResource MyCards}"
-                   Text="{Binding Count, StringFormat='There are {0} cards in the deck'}" />
+               Text="{Binding Count, StringFormat='There are {0} cards in the deck'}" />
 
             <Label x:Name="SelectedCard" Text="No card selected"/>
 
             <Border>
                 <CollectionView x:Name="MyItems" HeightRequest="125" SelectionMode="Single"
-                                SelectionChanged="MyItems_SelectionChanged"
+                                SelectionChanged="MyItems_SelectionChanged" 
                                 ItemsUpdatingScrollMode="KeepLastItemInView"
                                 ItemsSource="{StaticResource MyCards}" />
             </Border>

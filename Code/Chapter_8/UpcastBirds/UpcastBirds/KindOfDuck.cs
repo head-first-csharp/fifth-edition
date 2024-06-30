@@ -1,6 +1,4 @@
-﻿namespace UpcastBirds;
-
-enum KindOfDuck
+﻿enum KindOfDuck
 {
     Mallard,
     Muscovy,

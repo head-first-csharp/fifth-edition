@@ -1,6 +1,4 @@
-﻿using ShuffleAndSortCards;
-
-List<Card> cards = new List<Card>();
+﻿List<Card> cards = new List<Card>();
 Console.Write("Enter number of cards: ");
 if (int.TryParse(Console.ReadLine(), out int numberOfCards))
     for (int i = 0; i < numberOfCards; i++)
@@ -15,7 +13,7 @@ void PrintCards(List<Card> cards)
 {
     foreach (Card card in cards)
     {
-        Console.WriteLine(card.Name);
+        Console.WriteLine(card);
     }
 }
 

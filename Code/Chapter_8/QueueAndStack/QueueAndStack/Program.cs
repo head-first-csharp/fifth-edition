@@ -21,7 +21,6 @@ Console.WriteLine($"Count before Clear():\n{myQueue.Count}");
 myQueue.Clear();
 Console.WriteLine($"Count after Clear():\n{myQueue.Count}");
 
-
 // Create a Stack and add four strings to it
 Stack<string> myStack = new Stack<string>();
 myStack.Push("first in line");

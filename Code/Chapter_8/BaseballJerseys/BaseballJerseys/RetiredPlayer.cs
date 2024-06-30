@@ -1,5 +1,4 @@
-﻿namespace BaseballJerseys;
-
+﻿
 class RetiredPlayer
 {
     public string Name { get; private set; }

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortDogsSharpenYourPencil", "SortDogsSharpenYourPencil\SortDogsSharpenYourPencil.csproj", "{39E13E82-F87B-4052-B6B7-53E38F4744FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortDogsSharpenYourPencil", "SortDogsSharpenYourPencil\SortDogsSharpenYourPencil.csproj", "{A10D3B0D-C8F5-4DD9-AAE4-D58D3EDB6FE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{39E13E82-F87B-4052-B6B7-53E38F4744FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{39E13E82-F87B-4052-B6B7-53E38F4744FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{39E13E82-F87B-4052-B6B7-53E38F4744FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{39E13E82-F87B-4052-B6B7-53E38F4744FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A10D3B0D-C8F5-4DD9-AAE4-D58D3EDB6FE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A10D3B0D-C8F5-4DD9-AAE4-D58D3EDB6FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A10D3B0D-C8F5-4DD9-AAE4-D58D3EDB6FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A10D3B0D-C8F5-4DD9-AAE4-D58D3EDB6FE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {76C433DC-317D-4C3E-9FC0-0D1E60309E37}
+		SolutionGuid = {15003B9B-8A09-43DE-B8B9-5ED4705A7098}
 	EndGlobalSection
 EndGlobal

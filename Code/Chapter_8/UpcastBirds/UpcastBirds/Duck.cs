@@ -1,6 +1,4 @@
-﻿namespace UpcastBirds;
-
-class Duck(int size, KindOfDuck kind) : Bird
+﻿class Duck(int size, KindOfDuck kind) : Bird
 {
     public int Size { get { return size; } }
     public KindOfDuck Kind { get { return kind; } }

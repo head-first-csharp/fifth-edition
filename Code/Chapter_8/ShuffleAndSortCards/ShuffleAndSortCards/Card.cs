@@ -1,6 +1,4 @@
-﻿namespace ShuffleAndSortCards;
-
-class Card(Values value, Suits suit)
+﻿class Card(Values value, Suits suit)
 {
 
     public Values Value { get { return value; } }
@@ -16,4 +14,5 @@ class Card(Values value, Suits suit)
     {
         return Name;
     }
+
 }

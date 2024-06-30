@@ -1,6 +1,4 @@
-﻿using BaseballJerseys;
-
-Dictionary<int, RetiredPlayer> retiredYankees = new Dictionary<int, RetiredPlayer>() {
+﻿Dictionary<int, RetiredPlayer> retiredYankees = new Dictionary<int, RetiredPlayer>() {
     {3, new RetiredPlayer("Babe Ruth", 1948)},
     {4, new RetiredPlayer("Lou Gehrig", 1939)},
     {5, new RetiredPlayer("Joe DiMaggio", 1952)},

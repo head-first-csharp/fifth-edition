@@ -1,6 +1,4 @@
-﻿namespace SuitsAndValuesEnums;
-
-enum Suits
+﻿enum Suits
 {
     Diamonds,
     Clubs,

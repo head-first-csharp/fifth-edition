@@ -1,6 +1,4 @@
-﻿namespace SuitsAndValuesEnums;
-
-class Card(Values value, Suits suit)
+﻿class Card(Values value, Suits suit)
 {
 
     public Values Value { get { return value; } }

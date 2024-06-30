@@ -1,6 +1,4 @@
-﻿namespace Lumberjacks;
-
-class Lumberjack(string name)
+﻿class Lumberjack(string name)
 {
     public string Name { get { return name; } }
 

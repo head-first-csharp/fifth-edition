@@ -1,5 +1,4 @@
-﻿namespace UpcastBirds;
-
+﻿// See https://aka.ms/new-console-template for more information
 class Bird
 {
     public virtual void Fly(string destination)
@@ -20,3 +19,5 @@ class Bird
         }
     }
 }
+
+

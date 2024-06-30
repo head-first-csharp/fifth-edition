@@ -1,5 +1,4 @@
-﻿namespace ShoeClosetApp;
-
+﻿
 class Shoe(Style style, string? color)
 {
     public Style Style

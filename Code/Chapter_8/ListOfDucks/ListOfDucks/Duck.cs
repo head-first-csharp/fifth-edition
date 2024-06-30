@@ -1,6 +1,4 @@
-﻿namespace ListOfDucks;
-
-class Duck(int size, KindOfDuck kind) : IComparable<Duck>
+﻿class Duck(int size, KindOfDuck kind) : IComparable<Duck>
 {
     public int Size { get { return size; } }
     public KindOfDuck Kind { get { return kind; } }
@@ -21,4 +19,5 @@ class Duck(int size, KindOfDuck kind) : IComparable<Duck>
     {
         return $"A {Size} inch {Kind}";
     }
+
 }

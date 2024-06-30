@@ -1,6 +1,4 @@
-﻿using UpcastBirds;
-
-List<Duck> ducks = [
+﻿List<Duck> ducks = [
     new Duck(17, KindOfDuck.Mallard),
     new Duck(18, KindOfDuck.Muscovy),
     new Duck(14, KindOfDuck.Loon),
