@@ -2,7 +2,7 @@
 int magazineSize = ReadInt(16, "Magazine size");
 
 Console.Write($"Loaded [false]: ");
-bool.TryParse(Console.ReadLine(), out bool isLoaded); 
+bool.TryParse(Console.ReadLine(), out bool isLoaded);
 
 PaintballGun gun = new PaintballGun(numberOfBalls, magazineSize, isLoaded);
 while (true)

@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.9.34622.214
+VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintballGun", "PaintballGun\PaintballGun.csproj", "{B717D637-D863-4C4E-809C-3FA11F756CA6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintballGun", "PaintballGun\PaintballGun.csproj", "{67D9B5BE-67D9-4BA2-A1F8-74118993D1FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B717D637-D863-4C4E-809C-3FA11F756CA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B717D637-D863-4C4E-809C-3FA11F756CA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B717D637-D863-4C4E-809C-3FA11F756CA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B717D637-D863-4C4E-809C-3FA11F756CA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67D9B5BE-67D9-4BA2-A1F8-74118993D1FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67D9B5BE-67D9-4BA2-A1F8-74118993D1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67D9B5BE-67D9-4BA2-A1F8-74118993D1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67D9B5BE-67D9-4BA2-A1F8-74118993D1FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {D746D704-1947-415D-BF29-ABEECA5990E4}
+		SolutionGuid = {2A34C7E2-C5C3-48A9-BBCB-48544677B0D1}
 	EndGlobalSection
 EndGlobal

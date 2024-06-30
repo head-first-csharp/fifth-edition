@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.9.34622.214
+VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoolPuzzle", "PoolPuzzle\PoolPuzzle.csproj", "{0AF6B222-048E-4EBF-AE43-E4EF368699C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoolPuzzle", "PoolPuzzle\PoolPuzzle.csproj", "{BE02C237-DD4D-474E-AF11-EA326E4F0830}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0AF6B222-048E-4EBF-AE43-E4EF368699C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0AF6B222-048E-4EBF-AE43-E4EF368699C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0AF6B222-048E-4EBF-AE43-E4EF368699C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0AF6B222-048E-4EBF-AE43-E4EF368699C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE02C237-DD4D-474E-AF11-EA326E4F0830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE02C237-DD4D-474E-AF11-EA326E4F0830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE02C237-DD4D-474E-AF11-EA326E4F0830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE02C237-DD4D-474E-AF11-EA326E4F0830}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {D1DE9508-CB94-49A8-BA62-AE2ED03F5C98}
+		SolutionGuid = {00646FA9-78B4-484A-A6A8-9DD958C0108D}
 	EndGlobalSection
 EndGlobal

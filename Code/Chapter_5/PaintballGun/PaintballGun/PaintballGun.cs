@@ -1,5 +1,7 @@
 ﻿class PaintballGun
 {
+    private int balls;
+
     public PaintballGun(int balls, int magazineSize, bool loaded)
     {
         this.balls = balls;
@@ -8,9 +10,6 @@
     }
 
     public int MagazineSize { get; private set; }
-
-
-    private int balls;
 
     public int BallsLoaded { get; private set; }
 

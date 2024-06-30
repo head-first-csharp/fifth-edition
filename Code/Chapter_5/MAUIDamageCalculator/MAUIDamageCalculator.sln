@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAUIDamageCalculator", "MAUIDamageCalculator\MAUIDamageCalculator.csproj", "{8FD7529C-FBE2-4356-B66F-2DD115B88AAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FD7529C-FBE2-4356-B66F-2DD115B88AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FD7529C-FBE2-4356-B66F-2DD115B88AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FD7529C-FBE2-4356-B66F-2DD115B88AAE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8FD7529C-FBE2-4356-B66F-2DD115B88AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FD7529C-FBE2-4356-B66F-2DD115B88AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FD7529C-FBE2-4356-B66F-2DD115B88AAE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C72A2E02-D265-444A-9656-70E52F0548CB}
+	EndGlobalSection
+EndGlobal
