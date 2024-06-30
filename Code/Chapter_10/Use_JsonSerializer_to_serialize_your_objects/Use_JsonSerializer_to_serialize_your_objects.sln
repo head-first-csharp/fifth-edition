@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Use_JsonSerializer_to_serialize_your_objects", "Use_JsonSerializer_to_serialize_your_objects\Use_JsonSerializer_to_serialize_your_objects.csproj", "{35230194-EB1C-4733-B36A-BCBC3BD9738A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35230194-EB1C-4733-B36A-BCBC3BD9738A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35230194-EB1C-4733-B36A-BCBC3BD9738A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35230194-EB1C-4733-B36A-BCBC3BD9738A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35230194-EB1C-4733-B36A-BCBC3BD9738A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31B0D7D9-B0D9-4580-9F41-C4EE3AC6FD81}
+	EndGlobalSection
+EndGlobal
