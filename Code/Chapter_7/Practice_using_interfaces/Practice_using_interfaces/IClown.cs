@@ -1,6 +1,4 @@
-﻿namespace ClownInterface;
-
-interface IClown
+﻿interface IClown
 {
     string FunnyThingIHave { get; }
     void Honk();

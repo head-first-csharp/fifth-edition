@@ -1,9 +1,8 @@
-﻿namespace ClownInterface;
-
-class TallGuy : IClown
+﻿class TallGuy : IClown
 {
     private string? name;
     private int height;
+
     public TallGuy(string? name, int height)
     {
         this.name = name;
@@ -24,4 +23,5 @@ class TallGuy : IClown
     {
         Console.WriteLine("Honk honk!");
     }
+
 }

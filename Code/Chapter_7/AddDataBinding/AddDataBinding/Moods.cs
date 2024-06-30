@@ -27,6 +27,7 @@ class Moods : INotifyPropertyChanged
                 CurrentMood = "Feeling good.";
                 break;
         }
+
         SemanticScreenReader.Announce(CurrentMood);
 
         OnPropertyChanged("CurrentMood");

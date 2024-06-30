@@ -1,6 +1,4 @@
-﻿using Animals;
-
-Animal[] animals =
+﻿Animal[] animals =
 [
     new Wolf(false),
     new Hippo(),
@@ -16,10 +14,12 @@ foreach (Animal animal in animals)
     {
         hippo.Swim();
     }
+
     if (animal is Wolf wolf)
     {
         wolf.HuntInPack();
     }
+
     Console.WriteLine();
 }
 

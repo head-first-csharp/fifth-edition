@@ -1,6 +1,4 @@
-﻿namespace Animals;
-
-interface ISwimmer
+﻿interface ISwimmer
 {
     void Swim();
 }

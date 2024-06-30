@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animals", "Animals\Animals.csproj", "{9BB2FA12-9603-4673-9CB9-F2159D1DB787}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_using_interfaces", "Practice_using_interfaces\Practice_using_interfaces.csproj", "{4B8576DA-F0C2-4208-9A35-534D52A10B4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9BB2FA12-9603-4673-9CB9-F2159D1DB787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9BB2FA12-9603-4673-9CB9-F2159D1DB787}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9BB2FA12-9603-4673-9CB9-F2159D1DB787}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9BB2FA12-9603-4673-9CB9-F2159D1DB787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B8576DA-F0C2-4208-9A35-534D52A10B4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B8576DA-F0C2-4208-9A35-534D52A10B4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B8576DA-F0C2-4208-9A35-534D52A10B4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B8576DA-F0C2-4208-9A35-534D52A10B4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {77E39777-D981-4D71-93CE-DC067C1ACA05}
+		SolutionGuid = {8CC83382-845C-47DE-83F1-458B5A730AC7}
 	EndGlobalSection
 EndGlobal

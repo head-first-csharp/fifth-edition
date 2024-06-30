@@ -10,7 +10,7 @@
 
             <Label Text="{Binding CurrentMood}" FontSize="Medium"
                    HorizontalOptions="Center" Margin="20"/>
-
+            
             <Image
                 Source="dotnet_bot.png"
                 HeightRequest="185"

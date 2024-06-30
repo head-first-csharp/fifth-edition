@@ -1,6 +1,4 @@
-﻿namespace Animals;
-
-interface IPackHunter
+﻿interface IPackHunter
 {
     void HuntInPack();
 }

@@ -1,17 +1,17 @@
-﻿namespace Animals;
-
-class Wolf : Canine, IPackHunter
+﻿class Wolf : Canine, IPackHunter
 {
     public Wolf(bool belongsToPack)
     {
         BelongsToPack = belongsToPack;
     }
+
     public override void MakeNoise()
     {
         if (BelongsToPack)
             Console.WriteLine("I'm in a pack.");
         Console.WriteLine("Aroooooo!");
     }
+
     public void HuntInPack()
     {
         if (BelongsToPack)

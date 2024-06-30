@@ -6,10 +6,12 @@ abstract class Bee : IWorker
     /// The units of honey this bee consumes per shift
     /// </summary>
     public abstract decimal CostPerShift { get; }
+
     /// <summary>
     /// The job assigned to this bee
     /// </summary>
     public string Job { get; private set; }
+
     /// <summary>
     /// The Bee class constructor
     /// </summary>
@@ -18,6 +20,7 @@ abstract class Bee : IWorker
     {
         Job = job;
     }
+
     /// <summary>
     /// If there's enough honey for this bee to work the next shift, consume the honey
     /// </summary>

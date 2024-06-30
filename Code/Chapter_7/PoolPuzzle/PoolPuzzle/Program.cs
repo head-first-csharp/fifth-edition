@@ -19,6 +19,7 @@ interface INose
 class Clowns : Picasso
 {
     public Clowns() : base("Clowns") { }
+
     public override int Ear()
     {
         return 7;
@@ -32,7 +33,9 @@ abstract class Picasso : INose
     {
         get { return face; }
     }
+
     public abstract int Ear();
+
     public Picasso(string face)
     {
         this.face = face;
@@ -55,4 +58,3 @@ class Of2028 : Clowns
         get { return "Of2028"; }
     }
 }
-

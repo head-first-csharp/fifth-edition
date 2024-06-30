@@ -1,6 +1,4 @@
-﻿namespace Animals;
-
-abstract class Animal
+﻿abstract class Animal
 {
     public abstract void MakeNoise();
 }

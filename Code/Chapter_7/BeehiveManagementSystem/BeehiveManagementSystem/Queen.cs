@@ -11,14 +11,13 @@ class Queen : Bee, INotifyPropertyChanged
         PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
     }
 
+    public bool HiveIsRunning { get; private set; } = true;
+    public bool OutOfHoney { get { return !HiveIsRunning; } }
+
+
     private IWorker[] workers = new IWorker[0];
     private decimal eggs = 0;
     private decimal unassignedWorkers = 3;
-
-    public bool HiveIsRunning { get; private set; } = true;
-
-    public bool OutOfHoney { get { return !HiveIsRunning; } }
-
 
     public bool CanAssignWorkers { get { return unassignedWorkers >= 1; } }
 

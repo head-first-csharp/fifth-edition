@@ -21,7 +21,6 @@
                 <VerticalStackLayout>
 
                     <Label Text="Bee Jobs" FontSize="Medium"/>
-
                     <Picker x:Name="JobPicker"
                             FontSize="Medium" Margin="0,0,0,20"
                             SemanticProperties.Hint="Lets the user pick a job to assign" />
@@ -36,11 +35,11 @@
 
             <Button x:Name="WorkShiftButton" Grid.Row="2" Text="Work the next shift" 
                     FontSize="Large" Clicked="WorkShiftButton_Clicked"
-                    SemanticProperties.Hint="Makes the bees work the next shift"
+                    SemanticProperties.Hint="Makes the bees work the next shift" 
                     IsVisible="{Binding HiveIsRunning}" />
 
             <Button x:Name="OutOfHoneyButton" Grid.Row="2" Text="The hive is out of honey" 
-                    BackgroundColor="Red" FontSize="Large" IsVisible="{Binding OutOfHoney}"
+                    BackgroundColor="Red" FontSize="Large" IsVisible="{Binding OutOfHoney}" 
                     Clicked="OutOfHoneyButton_Clicked"
                     SemanticProperties.Hint="Restarts the Beehive Management System" />
 
@@ -52,5 +51,5 @@
                    Text="{Binding StatusReport}" />
         </Grid>
     </ScrollView>
-    
+
 </ContentPage>
