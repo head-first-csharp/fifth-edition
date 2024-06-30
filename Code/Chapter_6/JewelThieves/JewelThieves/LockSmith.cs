@@ -1,6 +1,4 @@
-﻿namespace JewelThieves;
-
-class Locksmith
+﻿class Locksmith
 {
     public void OpenSafe(Safe safe, SafeOwner owner)
     {

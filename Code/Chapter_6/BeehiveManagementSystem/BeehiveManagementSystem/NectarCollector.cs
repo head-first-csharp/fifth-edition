@@ -2,7 +2,7 @@
 
 class NectarCollector : Bee
 {
-    public NectarCollector() : base("Nectar Collector") { }
+    public NectarCollector() : base("Nectar Collector") { }   
 
     public override decimal CostPerShift
     {
@@ -15,4 +15,3 @@ class NectarCollector : Bee
         return base.WorkTheNextShift();
     }
 }
-

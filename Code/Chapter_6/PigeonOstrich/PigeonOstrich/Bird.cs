@@ -1,6 +1,4 @@
-﻿namespace PigeonOstrich;
-
-class Bird
+﻿abstract class Bird
 {
     public virtual Egg[] LayEggs(int numberOfEggs)
     {

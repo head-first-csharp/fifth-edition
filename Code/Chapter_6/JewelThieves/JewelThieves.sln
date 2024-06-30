@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.9.34622.214
+VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JewelThieves", "JewelThieves\JewelThieves.csproj", "{B935B036-092C-4B26-A638-5B5F767970C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JewelThieves", "JewelThieves\JewelThieves.csproj", "{9E546563-64F2-4328-8343-63C6CE6B3658}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B935B036-092C-4B26-A638-5B5F767970C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B935B036-092C-4B26-A638-5B5F767970C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B935B036-092C-4B26-A638-5B5F767970C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B935B036-092C-4B26-A638-5B5F767970C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E546563-64F2-4328-8343-63C6CE6B3658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E546563-64F2-4328-8343-63C6CE6B3658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E546563-64F2-4328-8343-63C6CE6B3658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E546563-64F2-4328-8343-63C6CE6B3658}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {F40DDCF1-9608-4B6D-8226-57C9D9066456}
+		SolutionGuid = {FC3D44B1-D037-47C7-B6DE-C39B789129BC}
 	EndGlobalSection
 EndGlobal

@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.9.34622.214
+VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetMission", "PlanetMission\PlanetMission.csproj", "{3C3F510C-A814-408C-95B5-BAF76DE61B91}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetMission", "PlanetMission\PlanetMission.csproj", "{7026C6FA-B267-4F6F-A92A-8EBD824A1229}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3C3F510C-A814-408C-95B5-BAF76DE61B91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3C3F510C-A814-408C-95B5-BAF76DE61B91}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3C3F510C-A814-408C-95B5-BAF76DE61B91}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3C3F510C-A814-408C-95B5-BAF76DE61B91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7026C6FA-B267-4F6F-A92A-8EBD824A1229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7026C6FA-B267-4F6F-A92A-8EBD824A1229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7026C6FA-B267-4F6F-A92A-8EBD824A1229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7026C6FA-B267-4F6F-A92A-8EBD824A1229}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {6FACB8B4-0D43-4D10-878A-CAB4E4BE1252}
+		SolutionGuid = {694DF97C-FCBD-40A3-ADCE-3378FEF32855}
 	EndGlobalSection
 EndGlobal

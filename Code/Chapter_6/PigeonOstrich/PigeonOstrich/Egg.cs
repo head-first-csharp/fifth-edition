@@ -1,6 +1,4 @@
-﻿namespace PigeonOstrich;
-
-class Egg
+﻿class Egg
 {
     public double Size { get; private set; }
     public string Color { get; private set; }

@@ -1,4 +1,4 @@
-﻿namespace PigeonOstrich;
+﻿using System.Drawing;
 
 class BrokenEgg : Egg
 {
@@ -7,4 +7,3 @@ class BrokenEgg : Egg
         Console.WriteLine("A bird laid a broken egg");
     }
 }
-

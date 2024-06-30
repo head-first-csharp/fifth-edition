@@ -34,4 +34,3 @@ class Venus : PlanetMission
         kmPerHour = 29500;
     }
 }
-

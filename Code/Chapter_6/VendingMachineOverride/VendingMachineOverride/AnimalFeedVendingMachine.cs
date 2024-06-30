@@ -1,6 +1,4 @@
-﻿namespace VendingMachineOverride;
-
-class AnimalFeedVendingMachine : VendingMachine
+﻿class AnimalFeedVendingMachine : VendingMachine
 {
     public override string Item
     {

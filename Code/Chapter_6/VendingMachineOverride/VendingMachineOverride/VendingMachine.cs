@@ -1,6 +1,4 @@
-﻿namespace VendingMachineOverride;
-
-class VendingMachine
+﻿class VendingMachine
 {
     public virtual string Item { get; }
 

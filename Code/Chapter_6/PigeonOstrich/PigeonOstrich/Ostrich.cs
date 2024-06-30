@@ -1,6 +1,4 @@
-﻿namespace PigeonOstrich;
-
-class Ostrich : Bird
+﻿class Ostrich : Bird
 {
     public override Egg[] LayEggs(int numberOfEggs)
     {

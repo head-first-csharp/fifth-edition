@@ -1,6 +1,4 @@
-﻿namespace JewelThieves;
-
-class Safe
+﻿class Safe
 {
     private string contents = "precious jewels";
     private string safeCombination = "12345";

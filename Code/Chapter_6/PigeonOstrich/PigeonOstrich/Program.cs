@@ -1,6 +1,4 @@
-﻿using PigeonOstrich;
-
-while (true)
+﻿while (true)
 {
     Bird bird;
     Console.Write("\nPress P for pigeon, O for ostrich: ");

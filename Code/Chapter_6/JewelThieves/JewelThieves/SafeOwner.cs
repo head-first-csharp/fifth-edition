@@ -1,6 +1,4 @@
-﻿namespace JewelThieves;
-
-class SafeOwner
+﻿class SafeOwner
 {
     private string valuables = "";
     public void ReceiveContents(string safeContents)

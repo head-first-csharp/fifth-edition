@@ -1,6 +1,4 @@
-﻿namespace JewelThieves;
-
-class JewelThief : Locksmith
+﻿class JewelThief : Locksmith
 {
     private string stolenJewels = "";
     protected override void ReturnContents(string safeContents, SafeOwner owner)

@@ -1,6 +1,4 @@
-﻿namespace PigeonOstrich;
-
-class Pigeon : Bird
+﻿class Pigeon : Bird
 {
     public override Egg[] LayEggs(int numberOfEggs)
     {
@@ -9,6 +7,7 @@ class Pigeon : Bird
         {
             if (Random.Shared.Next(4) == 0)
                 eggs[i] = new BrokenEgg("white");
+
             else
                 eggs[i] = new Egg(Random.Shared.NextDouble() * 2 + 1, "white");
         }

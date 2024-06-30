@@ -2,7 +2,7 @@
 
 class HoneyManufacturer : Bee
 {
-    public HoneyManufacturer() : base("Honey Manufacturer") { }
+    public HoneyManufacturer() : base("Honey Manufacturer") { }   
 
     public override decimal CostPerShift
     {
@@ -15,4 +15,3 @@ class HoneyManufacturer : Bee
         return base.WorkTheNextShift();
     }
 }
-
