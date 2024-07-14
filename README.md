@@ -4,6 +4,18 @@
 
 This project contains source code, downloadable PDFs, graphics, and additional files for the projects in the 4th edition of ***Head First C#**: A Learner's Guide to Real-World Programming with C# and .NET Core* (O'Reilly Media 2023).
 
+## July 14, 2024 Update
+
+🚨 **We just posted the PDF of Unity Lab #1 – you can download it here: [Unity Lab #1](https://github.com/head-first-csharp/fifth-edition/raw/main/Unity_Labs/Unity_Lab_1.pdf)** 🚨
+
+We're thrilled to announce that we'll start posting PDFs of the Unity Lab projects from the book, so you can dive in and start building right away! Stay tuned for these resources and get ready to elevate your development skills with "Head First C#".
+
+One of the exciting aspects of writing the 5th edition of "Head First C#" is how we've integrated Unity to teach not just game development, but also broader development concepts that help new learners become great developers. 🌟
+
+To make the learning experience even more hands-on and engaging, we've included Unity Lab projects throughout the book. These labs provide step-by-step guides to building exciting projects while reinforcing key programming concepts.
+
+Stay tuned as we continue to update our GitHub page while the book is getting printed!
+
 ## July 11, 2024 Update
 
 We've got great news! We just finished production, which means the book is officially headed to the printer and will be available online and in stores in a few weeks.
