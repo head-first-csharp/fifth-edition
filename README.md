@@ -1,12 +1,16 @@
-# Head First C#, 5th Edition
+# Welcome to the GitHub project for **Head First C#, 5th Edition**
 
 ![](Images/Head_First_CSharp_cover_glasses.png)
 
-This GitHub project contains source code, downloadable PDFs, graphics, and additional files for the projects in the 4th edition of ***Head First C#**: A Learner's Guide to Real-World Programming with C# and .NET Core* (O'Reilly Media 2023).
+This project contains source code, downloadable PDFs, graphics, and additional files for the projects in the 4th edition of ***Head First C#**: A Learner's Guide to Real-World Programming with C# and .NET Core* (O'Reilly Media 2023).
 
-## Work in progress!
+## July 11, 2024 Update
 
-We are currently revising the book, which is planned for publication near the end of 2023. We're really excited about it! We'll post a preview of the first four chapters later in the summer. If you're a 4th edition reader, watch this space—we'll post all of the new material in the 5th edition as free PDFs so you can stay up to date without having to buy a new copy of the book.
+We've got great news! We just finished production, which means the book is officially headed to the printer and will be available online and in stores in a few weeks.
+
+We'll get a PDF of the first four chapters posted very soon, as well as PDFs of the .NET MAUI and Unity projects, the Blazor learner's guide, and other new material. We're also working on video walkthroughs to post to our [YouTube channel]([url](https://www.youtube.com/@headfirstcsharp)).
+
+If you're a 4th edition reader, watch this space—we'll post all of the new material in the 5th edition as free PDFs so you can stay up to date without having to buy a new copy of the book.
 
 ## MAUI Project Preview
 
