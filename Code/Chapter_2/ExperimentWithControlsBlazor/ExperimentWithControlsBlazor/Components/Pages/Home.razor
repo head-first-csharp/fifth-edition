@@ -1,0 +1,111 @@
+﻿@rendermode InteractiveServer
+@page "/"
+
+<PageTitle>Experiment With Controls</PageTitle>
+
+<div class="container">
+    <div class="row">
+        <h1>Experiment with controls</h1>
+    </div>
+    <div class="row mt-2">
+        <div class="col-sm-6">
+            Enter text:
+        </div>
+        <div class="col-sm-6">
+            <input type="text" placeholder="Enter text"
+                   @onchange="UpdateValue" />
+        </div>
+    </div>
+    <div class="row mt-2">
+        <div class="col-sm-6">
+            Pick a number:
+        </div>
+        <div class="col-sm-6">
+            <input type="range" @onchange="UpdateValue" />
+        </div>
+    </div>
+    <div class="row mt-2">
+        <div class="col-sm-6">Click a button:</div>
+        <div class="col-sm-6 btn-group" role="group">
+            @for (var buttonNumber = 1; buttonNumber <= 6; buttonNumber++)
+            {
+                string valueToDisplay = $"Button #{buttonNumber}";
+                <button type="button" class="btn btn-secondary"
+                        @onclick="() => ButtonClick(valueToDisplay)">
+                    @buttonNumber
+                </button>
+            }
+        </div>
+    </div>
+    <div class="row mt-2">
+        <div class="col-sm-6">Pick a date:</div>
+        <div class="col-sm-6">
+            <input type="date" @onchange="UpdateValue" />
+        </div>
+    </div>
+    <div class="row mt-2">
+        <div class="col-sm-6">Pick a color:</div>
+        <div class="col-sm-6">
+            <input type="color" @onchange="UpdateValue" />
+        </div>
+    </div>
+    <div class="row mt-5">
+        <h2>
+            Here's the value: <strong>@DisplayValue</strong>
+        </h2>
+    </div>
+    <div class="row mt-5">
+        <label>Pick a bird</label>
+        <select @bind="selectedBird">
+            @foreach (var bird in birds)
+            {
+                <option value="@bird">@bird</option>
+            }
+        </select>
+    </div>
+    <div class="row mt-2">
+        <button type="button" class="btn btn-primary" 
+                @onclick="AddBird">Add a bird</button>
+    </div>
+    <div class="row mt-2" style="background-color: darkblue; color: white;">
+        @foreach (var bird in addedBirds)
+        {
+            <div>@bird</div>
+        }
+    </div>
+</div>
+
+@code
+{
+    string[] birds = ["Duck", "Pigeon", "Penguin", "Ostrich", "Owl"];
+    string[] addedBirds = [];
+    string selectedBird;
+
+    protected override void OnInitialized()
+    {
+        selectedBird = birds[0];
+    }
+
+    private void AddBird()
+    {
+        string[] newAddedBirds = new string[addedBirds.Length + 1];
+        for (int i = 0; i < addedBirds.Length; i++)
+        {
+            newAddedBirds[i] = addedBirds[i];
+        }
+        newAddedBirds[newAddedBirds.Length - 1] = selectedBird;
+        addedBirds = newAddedBirds;
+    }
+
+    private string DisplayValue = "";
+
+    private void UpdateValue(ChangeEventArgs e)
+    {
+        DisplayValue = e.Value.ToString();
+    }
+
+    private void ButtonClick(string displayValue)
+    {
+        DisplayValue = displayValue;
+    }
+}

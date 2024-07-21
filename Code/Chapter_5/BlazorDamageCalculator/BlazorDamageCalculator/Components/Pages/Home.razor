@@ -1,0 +1,51 @@
+﻿@rendermode InteractiveServer
+@page "/"
+
+<PageTitle>Damage Calculator</PageTitle>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-3 text-left">
+            <input class="form-check-input" type="checkbox" id="flaming"
+                   @bind="swordDamage.Flaming" />
+            <label class="form-check-label" for="flaming">
+                Flaming
+            </label>
+        </div>
+        <div class="col-3 text-right">
+            <input class="form-check-input" type="checkbox" id="magic"
+                   @bind="swordDamage.Magic" />
+            <label class="form-check-label" for="magic">
+                Magic
+            </label>
+        </div>
+    </div>
+    <div class="row justify-content-center mt-5">
+        <div class="col-4 text-center">
+            <button type="button" class="btn btn-primary"
+                    @onclick="RollDice">
+                Roll for damage
+            </button>
+        </div>
+    </div>
+    <div class="row justify-content-center mt-5">
+        <div class="col-6 text-center">
+            <h3>Rolled @swordDamage.Roll for @swordDamage.Damage HP</h3>
+        </div>
+    </div>
+</div>
+
+@code {
+    SwordDamage swordDamage = new SwordDamage(10);
+
+    protected override void OnInitialized()
+    {
+        RollDice();
+    }
+
+    public void RollDice()
+    {
+        swordDamage.Roll = Random.Shared.Next(1, 7) +
+            Random.Shared.Next(1, 7) + Random.Shared.Next(1, 7);
+    }
+}

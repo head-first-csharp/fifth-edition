@@ -1,0 +1,45 @@
+﻿@rendermode InteractiveServer
+@page "/"
+@using PickRandomCards
+
+<PageTitle>Pick Random Cards</PageTitle>
+
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <div class="row">
+                <h3>How many cards should I pick?</h3>
+            </div>
+            <div class="row mt-5">
+                <input type="range" class="col-10 form-control-range"
+                       min="1" max="15" @bind="numberOfCards" />
+                <div class="col-2">@numberOfCards</div>
+            </div>
+            <div class="row mt-5">
+                <button type="button" class="btn btn-primary"
+                        @onclick="UpdateCards">
+                    Pick some cards
+                </button>
+            </div>
+        </div>
+        <div class="col-4">
+            <ul class="list-group">
+                @foreach (var card in pickedCards)
+                {
+                    <li class="list-group-item">@card</li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>
+
+@code {
+    int numberOfCards = 5;
+
+    string[] pickedCards = CardPicker.PickSomeCards(5);
+
+    void UpdateCards()
+    {
+        pickedCards = CardPicker.PickSomeCards(numberOfCards);
+    }
+}
