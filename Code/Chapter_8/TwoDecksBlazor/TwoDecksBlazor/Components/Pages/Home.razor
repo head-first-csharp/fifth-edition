@@ -1,0 +1,174 @@
+﻿@page "/"
+@rendermode InteractiveServer
+@using BlazorCards
+
+<PageTitle>Two Decks</PageTitle>
+
+<div class="container">
+    <div class="row">
+        <select class="col-5" size="8" @bind="selectedCardLeft">
+            @for (int i = 0; i < leftDeck.Count; i++)
+            {
+                <option value="@i">@leftDeck[i]</option>
+            }
+        </select>
+
+        <div class="col-2" />
+
+        <select class="col-5" size="8" @bind="selectedCardRight">
+            @for (int i = 0; i < rightDeck.Count; i++)
+            {
+                <option value="@i">@rightDeck[i]</option>
+            }
+        </select>
+    </div>
+
+    <div class="row mt-2">
+        @if (LeftCardNotSelected)
+        {
+            <div class="col-5">No left card selected</div>
+        }
+        else
+        {
+            <div class="col-5">Left card: @leftDeck[selectedCardLeft]</div>
+        }
+        <div class="col-2" />
+        @if (RightCardNotSelected)
+        {
+            <div class="col-5">No right card selected</div>
+        }
+        else
+        {
+            <div class="col-5">Right card: @rightDeck[selectedCardRight]</div>
+        }
+    </div>
+
+    <div class="row mt-2">
+        <button type="button" class="col-2 btn btn-primary"
+                @onclick="AddCardLeft">
+            Add left
+        </button>
+        <div class="col-1" />
+        <button type="button" class="col-2 btn btn-secondary"
+                @onclick="MoveLeftToRight" disabled="@LeftCardNotSelected">
+            Move left
+        </button>
+
+        <div class="col-2" />
+
+        <button type="button" class="col-2 btn btn-primary"
+                @onclick="AddCardRight">
+            Add right
+        </button>
+        <div class="col-1" />
+        <button type="button" class="col-2 btn btn-secondary"
+                @onclick="MoveRightToLeft" disabled="@RightCardNotSelected">
+            Move right
+        </button>
+    </div>
+
+    <div class="row mt-2">
+        <button type="button" class="col-2 btn btn-secondary"
+                @onclick="ShuffleLeftDeck">
+            Shuffle left
+        </button>
+        <div class="col-1" />
+        <button type="button" class="col-2 btn btn-secondary"
+                @onclick="SortLeftDeck">
+            Sort left
+        </button>
+
+        <div class="col-2" />
+
+        <button type="button" class="col-2 btn btn-secondary"
+                @onclick="ShuffleRightDeck">
+            Shuffle right
+        </button>
+        <div class="col-1" />
+        <button type="button" class="col-2 btn btn-secondary"
+                @onclick="SortRightDeck">
+            Sort right
+        </button>
+    </div>
+
+    <div class="row mt-2">
+        <button type="button" class="col-2 btn btn-secondary"
+                @onclick="ResetLeftDeck">
+            Reset left
+        </button>
+        <div class="col-1" />
+        <button type="button" class="col-2 btn btn-secondary"
+                @onclick="ClearLeftDeck">
+            Clear left
+        </button>
+
+        <div class="col-2" />
+
+        <button type="button" class="col-2 btn btn-secondary"
+                @onclick="ResetRightDeck">
+            Reset right
+        </button>
+        <div class="col-1" />
+        <button type="button" class="col-2 btn btn-secondary"
+                @onclick="ClearRightDeck">
+            Clear right
+        </button>
+    </div>
+
+</div>
+
+@code {
+    int selectedCardLeft;
+    int selectedCardRight;
+
+    Deck leftDeck = new Deck();
+    Deck rightDeck = new Deck();
+
+    private void AddCardLeft()
+    {
+        leftDeck.Add(new Card((Values)Random.Shared.Next(1, 14),
+                           (Suits)Random.Shared.Next(0, 4)));
+
+        selectedCardLeft = leftDeck.Count - 1;
+    }
+    private void ShuffleLeftDeck() { leftDeck.Shuffle(); }
+    private void SortLeftDeck() { leftDeck.Sort(new CardComparerByValue()); }
+    private void ResetLeftDeck() { leftDeck.Reset(); }
+    private void ClearLeftDeck() { leftDeck.Clear(); }
+
+    private void AddCardRight()
+    {
+        rightDeck.Add(new Card((Values)Random.Shared.Next(1, 14),
+                           (Suits)Random.Shared.Next(0, 4)));
+
+        selectedCardRight = rightDeck.Count - 1;
+    }
+    private void ShuffleRightDeck() { rightDeck.Shuffle(); }
+    private void SortRightDeck() { rightDeck.Sort(new CardComparerByValue()); }
+    private void ResetRightDeck() { rightDeck.Reset(); }
+    private void ClearRightDeck() { rightDeck.Clear(); }
+
+    void MoveLeftToRight()
+    {
+        rightDeck.Add(leftDeck[selectedCardLeft]);
+        selectedCardRight = rightDeck.Count - 1;
+        leftDeck.RemoveAt(selectedCardLeft);
+    }
+
+    void MoveRightToLeft()
+    {
+        leftDeck.Add(rightDeck[selectedCardRight]);
+        selectedCardLeft = leftDeck.Count - 1;
+        rightDeck.RemoveAt(selectedCardRight);
+    }
+
+    public bool LeftCardNotSelected
+    {
+        get { return selectedCardLeft >= leftDeck.Count; }
+    }
+
+    public bool RightCardNotSelected
+    {
+        get { return selectedCardRight >= rightDeck.Count; }
+    }
+}

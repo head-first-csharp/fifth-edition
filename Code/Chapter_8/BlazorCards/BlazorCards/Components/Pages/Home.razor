@@ -1,0 +1,74 @@
+﻿@page "/"
+@rendermode InteractiveServer
+@using BlazorCards
+<PageTitle>Blazor Cards</PageTitle>
+
+<div class="container">
+    <h3 class="row">Pick a card</h3>
+    <div class="row">
+        <select class="col-12" size="8" @bind="selectedCard">
+            @for (int i = 0; i < cards.Count; i++)
+            {
+                <option value="@i">@cards[i]</option>
+            }
+        </select>
+    </div>
+
+    @if (selectedCard >= cards.Count)
+    {
+        <h4 class="row">No card selected</h4>
+    }
+    else
+    {
+        <h4 class="row">You selected: @cards[selectedCard]</h4>
+    }
+
+    <div class="row mt-2">
+        <button type="button" class="col-9 mt-2 btn btn-primary"
+                @onclick="AddCard">
+            Add a card
+        </button>
+    </div>
+
+    <div class="row mt-2">
+        <button type="button" class="col-4 btn btn-secondary"
+                @onclick="ShuffleDeck">
+            Shuffle the deck
+        </button>
+        <div class="col-1" />
+        <button type="button" class="col-4 btn btn-secondary"
+                @onclick="SortDeck">
+            Sort the deck
+        </button>
+    </div>
+
+    <div class="row mt-2">
+        <button type="button" class="col-4 btn btn-secondary"
+                @onclick="ResetDeck">
+            Reset the deck
+        </button>
+        <div class="col-1" />
+        <button type="button" class="col-4 btn btn-secondary"
+                @onclick="ClearDeck">
+            Clear the deck
+        </button>
+    </div>
+</div>
+
+@code {
+    int selectedCard;
+    private Deck cards = new Deck();
+
+    private void AddCard()
+    {
+        cards.Add(new Card((Values)Random.Shared.Next(1, 14),
+                           (Suits)Random.Shared.Next(0, 4)));
+
+        selectedCard = cards.Count - 1;
+    }
+
+    private void ShuffleDeck() { cards.Shuffle(); }
+    private void SortDeck() { cards.Sort(new CardComparerByValue()); }
+    private void ResetDeck() { cards.Reset(); }
+    private void ClearDeck() { cards.Clear(); }
+}
