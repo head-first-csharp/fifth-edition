@@ -4,9 +4,14 @@
 
 This project contains source code, downloadable PDFs, graphics, and additional files for the projects in the 4th edition of ***Head First C#**: A Learner's Guide to Real-World Programming with C# and .NET Core* (O'Reilly Media 2023).
 
-## July 26, 2024 Update
+🚨 **We're live on Amazon!** 🚨
 
-🚨 **We're in the final stretch!** 🚨
+You can download the book from Amazon today: https://www.amazon.com/Head-First-CSharp/dp/1098141784/ – or find it at your favorite retailer.
+
+Currently the #1 new release in C# Programming!
+
+<img width="518" alt="image" src="https://github.com/user-attachments/assets/8de0458b-e649-4140-bde1-04c589e96ffd">
+
 
 ![A stack of "Head First C#" (5th edition) books](https://github.com/user-attachments/assets/f73d726d-b8b5-4f31-8ab7-efc886cec355)
 
