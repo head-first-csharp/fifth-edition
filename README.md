@@ -21,7 +21,7 @@ Currently the #1 new release in C# Programming!
 We're busy finishing up the first batch of videos for our [YouTube Channel](https://www.youtube.com/@headfirstcsharp).
 
 We'll finish designing this page. In the meantime, check out our first PDF bonus downloads:
-* [**Head First C# Blazor Learner's Guide**](https://github.com/head-first-csharp/fifth-edition/raw/main/Head_First_C#_Blazor_Learners_Guide.pdf)
+* [**Head First C# Blazor Learner's Guide**](https://github.com/head-first-csharp/fifth-edition/raw/main/Head_First_CSharp_Blazor_Learners_Guide.pdf)
 * [**Head First C# Guide to Git**](https://github.com/head-first-csharp/fifth-edition/raw/main/Head_First_CSharp_Guide_to_Git.pdf)
 
 [```Head_First_Csharp_Chapters_1_to_4.pdf```](https://github.com/head-first-csharp/fifth-edition/raw/main/Head_First_Csharp_Chapters_1_to_4.pdf)
