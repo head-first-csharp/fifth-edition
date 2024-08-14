@@ -1,8 +1,8 @@
-# Welcome to the GitHub project for **Head First C#, 5th Edition**
+# Head First C#: A Learner's Guide to Real-World Programming with C# and .NET (5th edition)
 
 ![](Images/Head_First_CSharp_cover_glasses.png)
 
-This project contains source code, downloadable PDFs, graphics, and additional files for the projects in the 4th edition of ***Head First C#**: A Learner's Guide to Real-World Programming with C# and .NET Core* (O'Reilly Media 2023).
+Welcome to the GitHub project for *Head First C#* (5th edition). This project contains source code, downloadable PDFs, graphics, and additional files for the projects in the 4th edition of ***Head First C#**: A Learner's Guide to Real-World Programming with C# and .NET Core* (O'Reilly Media 2023).
 
 Download a free PDF of the first four chapters: [```Head_First_Csharp_Chapters_1_to_4.pdf```](https://github.com/head-first-csharp/fifth-edition/raw/master/Head_First_Csharp_Chapters_1_to_4.pdf)
 
@@ -10,7 +10,7 @@ Download a free PDF of the first four chapters: [```Head_First_Csharp_Chapters_1
 
 🚨 **We're live on Amazon!** 🚨
 
-You can download the book from Amazon today: https://www.amazon.com/Head-First-CSharp/dp/1098141784/ – or find it at your favorite retailer.
+You can download the book from Amazon today: [```https://www.amazon.com/Head-First-CSharp/dp/1098141784/```](https://www.amazon.com/Head-First-CSharp/dp/1098141784/) – or find it at your favorite retailer.
 
 <img width="518" alt="image" src="https://github.com/user-attachments/assets/8de0458b-e649-4140-bde1-04c589e96ffd">
 
@@ -25,6 +25,8 @@ We'll finish designing this page. In the meantime, check out our first PDF bonus
 * [**Head First C# Guide to Git**](https://github.com/head-first-csharp/fifth-edition/raw/master/Head_First_CSharp_Guide_to_Git.pdf)
 
 [```Head_First_Csharp_Chapters_1_to_4.pdf```](https://github.com/head-first-csharp/fifth-edition/raw/master/Head_First_Csharp_Chapters_1_to_4.pdf)
+
+## July 16th, 2024 Update
 
 🚨 **We just posted the PDF of Unity Lab #1 – you can download it here: [Unity Lab #1](https://github.com/head-first-csharp/fifth-edition/raw/main/Unity_Labs/Unity_Lab_1.pdf)** 🚨
 
