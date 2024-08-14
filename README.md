@@ -21,10 +21,10 @@ Currently the #1 new release in C# Programming!
 We're busy finishing up the first batch of videos for our [YouTube Channel](https://www.youtube.com/@headfirstcsharp).
 
 We'll finish designing this page. In the meantime, check out our first PDF bonus downloads:
-* [**Head First C# Blazor Learner's Guide**](https://github.com/head-first-csharp/fifth-edition/raw/master/Head_First_C#_Blazor_Learners_Guide.pdf)
-* [**Head First C# Guide to Git**](https://github.com/head-first-csharp/fifth-edition/raw/master/Head_First_CSharp_Guide_to_Git.pdf)
+* [**Head First C# Blazor Learner's Guide**](https://github.com/head-first-csharp/fifth-edition/raw/main/Head_First_C#_Blazor_Learners_Guide.pdf)
+* [**Head First C# Guide to Git**](https://github.com/head-first-csharp/fifth-edition/raw/main/Head_First_CSharp_Guide_to_Git.pdf)
 
-[```Head_First_Csharp_Chapters_1_to_4.pdf```](https://github.com/head-first-csharp/fifth-edition/raw/master/Head_First_Csharp_Chapters_1_to_4.pdf)
+[```Head_First_Csharp_Chapters_1_to_4.pdf```](https://github.com/head-first-csharp/fifth-edition/raw/main/Head_First_Csharp_Chapters_1_to_4.pdf)
 
 ## July 16th, 2024 Update
 
@@ -64,7 +64,7 @@ You can download early release PDFs of the Unity Labs from the [Unity Labs folde
 
 ## License and Copyright
 
-All of the source code and graphics used by the source code is licensed under the [MIT License](https://github.com/head-first-csharp/fourth-edition/blob/master/LICENSE).
+All of the source code and graphics used by the source code is licensed under the [MIT License](https://github.com/head-first-csharp/fifth-edition/blob/main/LICENSE).
 
 PDFs, cover, and other written book material © 2023 Andrew Stellman and Jennifer Greene, all rights reserved.
 
