@@ -1,18 +1,32 @@
-# Welcome to the GitHub project for **Head First C#, 5th Edition**
+# Head First C#: A Learner's Guide to Real-World Programming with C# and .NET (5th edition)
 
 ![](Images/Head_First_CSharp_cover_glasses.png)
 
-This project contains source code, downloadable PDFs, graphics, and additional files for the projects in the 4th edition of ***Head First C#**: A Learner's Guide to Real-World Programming with C# and .NET Core* (O'Reilly Media 2023).
+Welcome to the GitHub project for *Head First C#* (5th edition). This project contains source code, downloadable PDFs, graphics, and additional files for the projects in the 4th edition of ***Head First C#**: A Learner's Guide to Real-World Programming with C# and .NET Core* (O'Reilly Media 2023).
 
-## July 26, 2024 Update
-
-🚨 **We're in the final stretch!** 🚨
+Download a free PDF of the first four chapters: [```Head_First_Csharp_Chapters_1_to_4.pdf```](https://github.com/head-first-csharp/fifth-edition/raw/main/Head_First_Csharp_Chapters_1_to_4.pdf)
 
 ![A stack of "Head First C#" (5th edition) books](https://github.com/user-attachments/assets/f73d726d-b8b5-4f31-8ab7-efc886cec355)
 
-We're almost ready to launch! We're busy finishing up the first batch of videos for our [YouTube Channel](https://www.youtube.com/@headfirstcsharp), and getting the first batch of downloads ready for you. We should be ready by the time books are available at Amazon and bookstores.
+🚨 **We're live on Amazon!** 🚨
 
-## July 14, 2024 Update
+You can download the book from Amazon today: [```https://www.amazon.com/Head-First-CSharp/dp/1098141784/```](https://www.amazon.com/Head-First-CSharp/dp/1098141784/) – or find it at your favorite retailer.
+
+<img width="518" alt="image" src="https://github.com/user-attachments/assets/8de0458b-e649-4140-bde1-04c589e96ffd">
+
+Currently the #1 new release in C# Programming!
+
+## August 14, 2024 Update
+
+We're busy finishing up the first batch of videos for our [YouTube Channel](https://www.youtube.com/@headfirstcsharp).
+
+We'll finish designing this page. In the meantime, check out our first PDF bonus downloads:
+* [**Head First C# Blazor Learner's Guide**](https://github.com/head-first-csharp/fifth-edition/raw/main/Head_First_CSharp_Blazor_Learners_Guide.pdf)
+* [**Head First C# Guide to Git**](https://github.com/head-first-csharp/fifth-edition/raw/main/Head_First_CSharp_Guide_to_Git.pdf)
+
+[```Head_First_Csharp_Chapters_1_to_4.pdf```](https://github.com/head-first-csharp/fifth-edition/raw/main/Head_First_Csharp_Chapters_1_to_4.pdf)
+
+## July 16th, 2024 Update
 
 🚨 **We just posted the PDF of Unity Lab #1 – you can download it here: [Unity Lab #1](https://github.com/head-first-csharp/fifth-edition/raw/main/Unity_Labs/Unity_Lab_1.pdf)** 🚨
 
@@ -50,7 +64,7 @@ You can download early release PDFs of the Unity Labs from the [Unity Labs folde
 
 ## License and Copyright
 
-All of the source code and graphics used by the source code is licensed under the [MIT License](https://github.com/head-first-csharp/fourth-edition/blob/master/LICENSE).
+All of the source code and graphics used by the source code is licensed under the [MIT License](https://github.com/head-first-csharp/fifth-edition/blob/main/LICENSE).
 
 PDFs, cover, and other written book material © 2023 Andrew Stellman and Jennifer Greene, all rights reserved.
 
