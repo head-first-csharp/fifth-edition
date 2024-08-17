@@ -24,7 +24,7 @@ We'll finish designing this page. In the meantime, check out our first PDF bonus
 * [**Head First C# Blazor Learner's Guide**](https://github.com/head-first-csharp/fifth-edition/raw/main/Head_First_CSharp_Blazor_Learners_Guide.pdf)
 * [**Head First C# Guide to Git**](https://github.com/head-first-csharp/fifth-edition/raw/main/Head_First_CSharp_Guide_to_Git.pdf)
 
-*Looking for the step-by-step instructions for setting Unity Version Control? They're also in [**Head First C# Guide to Git**](https://github.com/head-first-csharp/fifth-edition/raw/main/Head_First_CSharp_Guide_to_Git.pdf). We're working on splitting this out into its own PDF—watch this space!*
+*Looking for the step-by-step instructions for setting up **Unity Version Control**? They're also in [**Head First C# Guide to Git**](https://github.com/head-first-csharp/fifth-edition/raw/main/Head_First_CSharp_Guide_to_Git.pdf). We're working on splitting this out into its own PDF—watch this space!*
 
 [```Head_First_Csharp_Chapters_1_to_4.pdf```](https://github.com/head-first-csharp/fifth-edition/raw/main/Head_First_Csharp_Chapters_1_to_4.pdf)
 
