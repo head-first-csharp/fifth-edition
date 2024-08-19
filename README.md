@@ -26,6 +26,8 @@ We'll finish designing this page. In the meantime, check out our first PDF bonus
 
 *Looking for the step-by-step instructions for setting up **Unity Version Control**? They're also in [**Head First C# Guide to Git**](https://github.com/head-first-csharp/fifth-edition/raw/main/Head_First_CSharp_Guide_to_Git.pdf). We're working on splitting this out into its own PDF—watch this space!*
 
+And we're hard at work finishing up the downloadable projects for Chapter 9 and Chapter 10. We'll have them posted very soon!
+
 ## July 16th, 2024 Update
 
 🚨 **We just posted the PDF of Unity Lab #1 – you can download it here: [Unity Lab #1](https://github.com/head-first-csharp/fifth-edition/raw/main/Unity_Labs/Unity_Lab_1.pdf)** 🚨
