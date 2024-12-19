@@ -14,7 +14,9 @@ You can download the book from Amazon today: [```https://www.amazon.com/Head-Fir
 
 <img width="518" alt="image" src="https://github.com/user-attachments/assets/8de0458b-e649-4140-bde1-04c589e96ffd">
 
-Currently the #1 new release in C# Programming!
+## Did you find an error in the book?
+
+We worked really hard to make this book as error-free as possible! But we're only human, and we do occasionally make mistkaes. If you spot an error in the book, please use the [O'Reilly errata page](https://www.oreilly.com/catalog/errata.csp?isbn=0636920803027) to let us know about it. That way it goes into a database so we can keep track of it and fix it in future printings.
 
 ## August 14, 2024 Update
 
