@@ -10,7 +10,7 @@ Download a free PDF of the first four chapters: [```Head_First_Csharp_Chapters_1
 
 🚨 **We're live on Amazon!** 🚨
 
-You can download the book from Amazon today: [```https://www.amazon.com/Head-First-CSharp/dp/1098141784/```](https://www.amazon.com/Head-First-CSharp/dp/1098141784/) – or find it at your favorite retailer.
+You can get the book from Amazon today: [```https://www.amazon.com/Head-First-CSharp/dp/1098141784/```](https://www.amazon.com/Head-First-CSharp/dp/1098141784/) – or find it at your favorite retailer.
 
 <img width="518" alt="image" src="https://github.com/user-attachments/assets/8de0458b-e649-4140-bde1-04c589e96ffd">
 
