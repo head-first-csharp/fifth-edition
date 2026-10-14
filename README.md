@@ -2,7 +2,7 @@
 
 ![](Images/Head_First_CSharp_cover_glasses.png)
 
-Welcome to the GitHub project for *Head First C#* (5th edition). This project contains source code, downloadable PDFs, graphics, and additional files for the projects in the 4th edition of ***Head First C#**: A Learner's Guide to Real-World Programming with C# and .NET Core* (O'Reilly Media 2023).
+Welcome to the GitHub project for *Head First C#* (5th edition). This project contains source code, downloadable PDFs, graphics, and additional files for the projects in the 5th edition of ***Head First C#**: A Learner's Guide to Real-World Programming with C# and .NET Core* (O'Reilly Media 2023).
 
 Download a free PDF of the first four chapters: [```Head_First_Csharp_Chapters_1_to_4.pdf```](https://github.com/head-first-csharp/fifth-edition/raw/main/Head_First_Csharp_Chapters_1_to_4.pdf)
 
@@ -22,15 +22,16 @@ We worked really hard to make this book as error-free as possible! But we're onl
 
 We're busy finishing up the first batch of videos for our [YouTube Channel](https://www.youtube.com/@headfirstcsharp).
 
-We'll finish designing this page. In the meantime, check out our first PDF bonus downloads:
+We'll finish designing this page. In the meantime, check out our PDF bonus downloads:
 * [**Head First C# Blazor Learner's Guide**](https://github.com/head-first-csharp/fifth-edition/raw/main/Head_First_CSharp_Blazor_Learners_Guide.pdf)
 * [**Head First C# Guide to Git**](https://github.com/head-first-csharp/fifth-edition/raw/main/Head_First_CSharp_Guide_to_Git.pdf)
-* [**Go Fish! - downloadable project for Chpapter 9**](https://github.com/head-first-csharp/fifth-edition/raw/main/Head_First_CSharp_Chapter_9_Project.pdf)
+* [**Head First C# Events and Delegates**](https://github.com/head-first-csharp/fifth-edition/raw/main/Head_First_CSharp_Events_and_Delegates.pdf)
+* [**Go Fish! - downloadable project for Chapter 9**](https://github.com/head-first-csharp/fifth-edition/raw/main/Head_First_CSharp_Chapter_9_Project.pdf)
 * [**Hide and Seek - downloadable project for Chapter 10**](https://github.com/head-first-csharp/fifth-edition/raw/main/Head_First_CSharp_Chapter_10_Project.pdf)
+* [**Animal Match Boss Battle - downloadable project for Chapter 12**](https://github.com/head-first-csharp/fifth-edition/raw/main/Head_First_CSharp_Chapter_12_Project.pdf) (turn your Chapter 1 animal matching game into a memory game)
+* Unity Labs: [**Lab #1**](https://github.com/head-first-csharp/fifth-edition/raw/main/Unity_Labs/Unity_Lab_1.pdf), [**Lab #2**](https://github.com/head-first-csharp/fifth-edition/raw/main/Unity_Labs/Unity_Lab_2.pdf), [**Lab #3**](https://github.com/head-first-csharp/fifth-edition/raw/main/Unity_Labs/Unity_Lab_3.pdf)
 
 *Looking for the step-by-step instructions for setting up **Unity Version Control**? They're also in [**Head First C# Guide to Git**](https://github.com/head-first-csharp/fifth-edition/raw/main/Head_First_CSharp_Guide_to_Git.pdf). We're working on splitting this out into its own PDF—watch this space!*
-
-And we're hard at work finishing up the downloadable projects for Chapter 9 and Chapter 10. We'll have them posted very soon!
 
 ## July 16th, 2024 Update
 
@@ -48,7 +49,7 @@ Stay tuned as we continue to update our GitHub page while the book is getting pr
 
 We've got great news! We just finished production, which means the book is officially headed to the printer and will be available online and in stores in a few weeks.
 
-We'll get a PDF of the first four chapters posted very soon, as well as PDFs of the .NET MAUI and Unity projects, the Blazor learner's guide, and other new material. We're also working on video walkthroughs to post to our [YouTube channel]([url](https://www.youtube.com/@headfirstcsharp)).
+We'll get a PDF of the first four chapters posted very soon, as well as PDFs of the .NET MAUI and Unity projects, the Blazor learner's guide, and other new material. We're also working on video walkthroughs to post to our [YouTube channel](https://www.youtube.com/@headfirstcsharp).
 
 If you're a 4th edition reader, watch this space—we'll post all of the new material in the 5th edition as free PDFs so you can stay up to date without having to buy a new copy of the book.
 
@@ -62,7 +63,7 @@ One of the most exciting additions to Head First C# is the inclusion of .NET MAU
 
 Welcome to your first Head First C# Unity Lab. Writing code is a skill, and like any other skill, getting better at it takes practice and experimentation. Unity will be a really valuable tool for that.
 
-Unity is a cross-platform game development tool that you can use to make professional-quality games, simulations, and more. It’s also a fun and satisfying way to get practice with the C# tools and ideas you’ll learn throughout this book. We designed these short, targeted labs to reinforce the concepts and techniques you just learned to help you hone your C# skills. These labs valuable practice, even if you aren’t planning to write games in C#.
+Unity is a cross-platform game development tool that you can use to make professional-quality games, simulations, and more. It’s also a fun and satisfying way to get practice with the C# tools and ideas you’ll learn throughout this book. We designed these short, targeted labs to reinforce the concepts and techniques you just learned to help you hone your C# skills. These labs are valuable practice, even if you aren’t planning to write games in C#.
 
 You can download early release PDFs of the Unity Labs from the [Unity Labs folder](Unity_Labs/).
 
